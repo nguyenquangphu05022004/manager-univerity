@@ -1,0 +1,1382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a93e7486-e1b7-4413-aa21-07142ce6841a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../react-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react-frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../react-frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../react-frontend/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../react-frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-frontend/src/index.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/../news/news/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="manager_uni: database" type="bdf80c8a:MssqlImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="manager_uni: database" type="bdf80c8a:MssqlImplModel$Database" />
+        <item name="dbo: schema" type="3adcb6a6:MssqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="manager_uni: database" type="bdf80c8a:MssqlImplModel$Database" />
+        <item name="dbo: schema" type="3adcb6a6:MssqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="manager_uni: database" type="bdf80c8a:MssqlImplModel$Database" />
+        <item name="dbo: schema" type="3adcb6a6:MssqlImplModel$Schema" />
+        <item name="routines" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="1d0a5c32-1265-4827-b668-94dc821084cf" />
+    </checked>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1230294953">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="80" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="12" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.113" value="1" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.14" value="5" />
+          <entry key="project.open.time.15" value="3" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.21" value="3" />
+          <entry key="project.open.time.23" value="2" />
+          <entry key="project.open.time.25" value="4" />
+          <entry key="project.open.time.26" value="3" />
+          <entry key="project.open.time.27" value="2" />
+          <entry key="project.open.time.28" value="4" />
+          <entry key="project.open.time.29" value="2" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.32" value="6" />
+          <entry key="project.open.time.34" value="3" />
+          <entry key="project.open.time.35" value="4" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.43" value="3" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="81" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="46" />
+          <entry key="classrooms" value="5" />
+          <entry key="course_major_register" value="1" />
+          <entry key="course_semester" value="2" />
+          <entry key="course_student" value="3" />
+          <entry key="courses" value="3" />
+          <entry key="exchange_subject_student" value="4" />
+          <entry key="grades" value="2" />
+          <entry key="groups" value="7" />
+          <entry key="java" value="1137" />
+          <entry key="js" value="65" />
+          <entry key="json" value="2" />
+          <entry key="majors" value="12" />
+          <entry key="properties" value="24" />
+          <entry key="register" value="28" />
+          <entry key="register_of_major" value="6" />
+          <entry key="register_of_major_subject" value="8" />
+          <entry key="registerhistory" value="8" />
+          <entry key="registerstatusupdateafterexchangesubject" value="10" />
+          <entry key="roles" value="13" />
+          <entry key="schoolyear" value="2" />
+          <entry key="schoolyear_course" value="2" />
+          <entry key="schoolyear_semester" value="2" />
+          <entry key="schoolyear_student" value="1" />
+          <entry key="semester" value="7" />
+          <entry key="sql" value="144" />
+          <entry key="student_classroom" value="4" />
+          <entry key="student_exchange_subject" value="7" />
+          <entry key="student_request" value="30" />
+          <entry key="student_request_response" value="2" />
+          <entry key="student_response" value="22" />
+          <entry key="student_response_request" value="17" />
+          <entry key="student_subject" value="33" />
+          <entry key="student_subject_exchange_info" value="10" />
+          <entry key="student_subject_record_view" value="21" />
+          <entry key="student_suject_record_info_details_view" value="5" />
+          <entry key="students" value="31" />
+          <entry key="subject_exchange" value="44" />
+          <entry key="subject_group" value="9" />
+          <entry key="subject_major" value="19" />
+          <entry key="subject_major_course" value="5" />
+          <entry key="subject_major_schoolyear" value="3" />
+          <entry key="subjects" value="20" />
+          <entry key="teachers" value="1" />
+          <entry key="user_role" value="7" />
+          <entry key="users" value="3" />
+          <entry key="v_selectinfosubjectexchangew" value="2" />
+          <entry key="vw_select_info_request_student" value="1" />
+          <entry key="vw_state_subject" value="8" />
+          <entry key="vw_student_subject" value="7" />
+          <entry key="vw_studentsubject" value="2" />
+          <entry key="xml" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="46" />
+          <entry key="Database Element" value="439" />
+          <entry key="JAVA" value="1137" />
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="65" />
+          <entry key="Properties" value="24" />
+          <entry key="SQL" value="99" />
+          <entry key="Scratch" value="45" />
+          <entry key="XML" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cell" value="487" />
+          <entry key="dummy" value="45" />
+          <entry key="java" value="44928" />
+          <entry key="js" value="9343" />
+          <entry key="properties" value="79" />
+          <entry key="sql" value="16464" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="44920" />
+          <entry key="JavaScript" value="9343" />
+          <entry key="PLAIN_TEXT" value="45" />
+          <entry key="Properties" value="79" />
+          <entry key="SQL" value="3643" />
+          <entry key="Scratch" value="13314" />
+          <entry key="Spring Data QL" value="2" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/SchoolYearConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="32" column="23" selection-start-line="32" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/register_of_major">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/register_of_major_subject">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/api/SubjectController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/api/CourseController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/api/RegisterOfMajorController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/api/GradeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dto/SchoolYearDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>WebAuth</find>
+      <find>getAllRe</find>
+      <find>register</find>
+      <find>code</find>
+      <find>major</find>
+      <find>StudentService</find>
+      <find>group</find>
+      <find>student</find>
+      <find>StudentRequ</find>
+      <find>StudentRequest</find>
+      <find>/api/student/subject/</find>
+      <find>SubjectSelect</find>
+      <find>console.log</find>
+      <find>subjectViewExchange</find>
+      <find>RegisterSubjectContro</find>
+      <find>StudentResponseCon</find>
+      <find>GenericSearch</find>
+      <find>public class StudentRequest</find>
+      <find>PUBLIC CLASS StudentResponse</find>
+      <find>public class StudentRequestSer</find>
+      <find>StudentResponseService</find>
+      <find>StudentResponseConver</find>
+      <find>StudentRequestDto</find>
+      <find>StudentRequestConverter</find>
+      <find>Exchange</find>
+      <find>CourseConverter</find>
+      <find>GenericSear</find>
+      <find>SchoolYearService</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\WorkSpaceD\project\news\news</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../react-frontend" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="/651bed1f/1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/routine/usp_updateaction.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/StudentRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/StudentResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentResponseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/dto/StudentResponseDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/converter/imp/StudentResponseConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/dto/StudentRequestDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/converter/imp/StudentRequestConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/Register.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/Service/imp/RegisterSubjectService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/dto/RegisterDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentRequestService.java" />
+        <option value="$PROJECT_DIR$/../react-frontend/src/components/ListStudentComponent.js" />
+        <option value="$PROJECT_DIR$/../react-frontend/src/components/RegisterSubjectComponent.js" />
+        <option value="$PROJECT_DIR$/../react-frontend/src/components/ExchangeSubject.js" />
+        <option value="$PROJECT_DIR$/../react-frontend/src/components/ListSubjectComponent.js" />
+        <option value="$PROJECT_DIR$/../react-frontend/src/components/ListRequestExchangeSubject.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/api/MajorController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/Application.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/Subject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/SemesterEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/Semester.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/Service/imp/SemesterService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/api/SemesterController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/CourseRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/dto/CourseDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/Service/imp/CourseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/converter/imp/CourseConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/RegisterOfMajorRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/RegisterOfMajorController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/Semester.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/SemesterRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/dto/RegisterOfMajorDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/RegisterOfMajor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/Major.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/StudentRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/Course.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/dto/SchoolYearDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/Service/imp/GenericSearchBy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/SchoolYear.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/Service/imp/SchoolYearService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/converter/imp/RegisterConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/converter/imp/SemesterConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/dto/SemesterDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/converter/imp/SchoolYearConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/api/CourseController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/converter/imp/RegisterOfMajorConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/Service/imp/RegisterOfMajorService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/api/RegisterOfMajorController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="registerSubject" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="registerSubject" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="955" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="registerSubject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="registerSubject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="registerSubject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="registerSubject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlserver" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;dbSrc:///651bed1f/1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/routine/usp_register_update.sql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1697727270852" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.data.extractors.current.id" value="SQL Inserts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-frontend" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="show.run.dashboard.notification" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.dto" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="react-frontend" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="react-frontend" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="BackEndManagerUniversity" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="news" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.news.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.news.NewsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.NewsApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.NewsApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a93e7486-e1b7-4413-aa21-07142ce6841a" name="Default Changelist" comment="" />
+      <created>1694226537900</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694226537900</updated>
+      <workItem from="1694226539867" duration="276000" />
+      <workItem from="1694311916182" duration="12746000" />
+      <workItem from="1694342359665" duration="980000" />
+      <workItem from="1694349378708" duration="1959000" />
+      <workItem from="1694414901388" duration="4917000" />
+      <workItem from="1694420008850" duration="5000" />
+      <workItem from="1694420025158" duration="269000" />
+      <workItem from="1694420310898" duration="2457000" />
+      <workItem from="1694422897698" duration="45000" />
+      <workItem from="1694422980602" duration="712000" />
+      <workItem from="1694423725941" duration="302000" />
+      <workItem from="1694424746851" duration="87000" />
+      <workItem from="1694424855206" duration="13000" />
+      <workItem from="1694424883544" duration="9000" />
+      <workItem from="1694424921375" duration="238000" />
+      <workItem from="1694425165835" duration="1000" />
+      <workItem from="1694425199835" duration="29000" />
+      <workItem from="1694425256783" duration="447000" />
+      <workItem from="1694425723962" duration="1686000" />
+      <workItem from="1694428048534" duration="1441000" />
+      <workItem from="1694434664114" duration="88000" />
+      <workItem from="1694524720659" duration="3051000" />
+      <workItem from="1694576895663" duration="5188000" />
+      <workItem from="1694587992822" duration="2496000" />
+      <workItem from="1694654595947" duration="6214000" />
+      <workItem from="1694679307136" duration="11000" />
+      <workItem from="1694838863112" duration="3435000" />
+      <workItem from="1694843218670" duration="1497000" />
+      <workItem from="1694852036922" duration="10145000" />
+      <workItem from="1694871753284" duration="3555000" />
+      <workItem from="1694911868834" duration="183000" />
+      <workItem from="1694951400875" duration="3069000" />
+      <workItem from="1694957913324" duration="609000" />
+      <workItem from="1694961042765" duration="12000" />
+      <workItem from="1695022286720" duration="10084000" />
+      <workItem from="1695041137508" duration="10000" />
+      <workItem from="1695081560822" duration="391000" />
+      <workItem from="1695115423430" duration="5168000" />
+      <workItem from="1695127725189" duration="90000" />
+      <workItem from="1695180587478" duration="6855000" />
+      <workItem from="1695200870528" duration="3638000" />
+      <workItem from="1695256957710" duration="7218000" />
+      <workItem from="1695271568435" duration="192000" />
+      <workItem from="1695274756742" duration="8000" />
+      <workItem from="1695298033860" duration="2732000" />
+      <workItem from="1695375700555" duration="3226000" />
+      <workItem from="1695386323545" duration="2925000" />
+      <workItem from="1695425218204" duration="8686000" />
+      <workItem from="1695466496889" duration="727000" />
+      <workItem from="1695518659392" duration="8068000" />
+      <workItem from="1695527561999" duration="779000" />
+      <workItem from="1695626617208" duration="7496000" />
+      <workItem from="1695721083907" duration="11928000" />
+      <workItem from="1695788666039" duration="4597000" />
+      <workItem from="1695804801627" duration="6015000" />
+      <workItem from="1695863494274" duration="10256000" />
+      <workItem from="1695913270333" duration="1365000" />
+      <workItem from="1695964505134" duration="3321000" />
+      <workItem from="1695980231359" duration="7698000" />
+      <workItem from="1696036084091" duration="12315000" />
+      <workItem from="1696068969635" duration="3183000" />
+      <workItem from="1696081768189" duration="6245000" />
+      <workItem from="1696123104428" duration="9209000" />
+      <workItem from="1696145658402" duration="5103000" />
+      <workItem from="1696236659802" duration="4164000" />
+      <workItem from="1696332123057" duration="140000" />
+      <workItem from="1696333047819" duration="882000" />
+      <workItem from="1696519531426" duration="15000" />
+      <workItem from="1696730008038" duration="502000" />
+      <workItem from="1696746356381" duration="44000" />
+      <workItem from="1696936465817" duration="722000" />
+      <workItem from="1696938203579" duration="5285000" />
+      <workItem from="1697036230200" duration="875000" />
+      <workItem from="1697078436072" duration="6225000" />
+      <workItem from="1697280281939" duration="1445000" />
+      <workItem from="1697358390518" duration="4306000" />
+      <workItem from="1697449613323" duration="2699000" />
+      <workItem from="1697515868544" duration="212000" />
+      <workItem from="1697624950250" duration="666000" />
+      <workItem from="1697627554891" duration="4470000" />
+      <workItem from="1697710077367" duration="5261000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="255613000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="830" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33647376" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32892805" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932706" weight="0.3010279" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.13656388" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32892805" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067294" side_tool="true" weight="0.3010279" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32892805" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.50067294" visible="true" weight="0.5535976" />
+      <window_info anchor="bottom" id="Database Changes" order="11" weight="0.32892805" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49932706" weight="0.47723934" />
+      <window_info anchor="bottom" id="Database Console" order="14" sideWeight="0.49932706" weight="0.17914832" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966353" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.2577389" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.15275909" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32974428" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2873486" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32892805" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932706" weight="0.0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.13656388" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32892805" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067294" side_tool="true" weight="0.3010279" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32892805" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.50067294" weight="0.24375919" />
+      <window_info anchor="bottom" id="Database Changes" order="11" weight="0.32892805" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49932706" weight="0.47723934" />
+      <window_info anchor="bottom" id="Database Console" order="14" sideWeight="0.49932706" weight="0.17914832" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966353" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.21265142" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.15275909" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32974428" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../news/news/src/main/java/com/example/news/config/JwtAuthenticationFilter.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../news/news/src/main/java/com/example/news/config/TokenProvider.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../news/news/src/main/java/com/example/news/config/TokenProvider.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../news/news/src/main/java/com/example/news/config/JwtAuthenticationEntryPoint.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../news/news/src/main/java/com/example/news/api/UserAPI.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../news/news/src/main/java/com/example/news/api/BuildingAPI.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/CustomUserDetailsService.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/config/TokenProvider.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/config/JwtAuthenticationFilter.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/config/JwtAuthenticationFilter.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/config/TokenProvider.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/config/TokenProvider.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/config/TokenProvider.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/config/TokenProvider.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/StudentConverter.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentService.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/api/StudentController.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/RegisterSubjectService.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/SubjectService.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/api/subject/exchange/StudentResponseController.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentResponseService.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentService.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/api/subject/exchange/StudentRequestController.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentRequestService.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentResponseService.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="header.value[4]" />
+        <watch expression="chain" />
+        <watch expression="this" />
+        <watch expression="subject.students" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/student_response_request">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/student_response">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/entity/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/majors">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/subject_major_course" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/entity/Major.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/StudentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/SubjectService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/entity/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.23.RELEASE/spring-data-commons-1.13.23.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/GenericSearchBy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="145" column="48" selection-start-line="145" selection-start-column="48" selection-end-line="145" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/registerhistory" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/RegisterOfMajorRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/CourseRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/students">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/entity/RegisterOfMajor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="31" column="40" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/SchoolYearService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentRequestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/RoomService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/RegisterSubjectService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dto/RegisterOfMajorDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/CourseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dto/CourseDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/schoolyear_student">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="%%physloc%%" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/entity/SchoolYear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/subject_major">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="%%physloc%%" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/api/RoomController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/api/SchoolYearController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/RegisterConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/MajorConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-616">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/SemesterConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dto/SemesterDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/schoolyear">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/schoolyear_semester">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="%%physloc%%" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/roles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/semester">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/schoolyear_course">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="%%physloc%%" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/GroupConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/GradeConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/CourseConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/SchoolYearConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="32" column="23" selection-start-line="32" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/register_of_major">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/register_of_major_subject">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/subject_major_schoolyear">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dto/SchoolYearDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/api/SubjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/api/CourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/RegisterOfMajorConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="37" column="61" lean-forward="true" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/RegisterOfMajorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="63" column="40" lean-forward="true" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
+          <folding>
+            <element signature="e#1983#1984#0" expanded="true" />
+            <element signature="e#2010#2011#0" expanded="true" />
+            <element signature="e#2074#2075#0" expanded="true" />
+            <element signature="e#2101#2102#0" expanded="true" />
+            <element signature="e#2177#2178#0" expanded="true" />
+            <element signature="e#2204#2205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/api/RegisterOfMajorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/api/GradeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>registerSubject</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

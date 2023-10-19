@@ -1,0 +1,1808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" rdbms="MSSQL" format-version="4.11">
+    <root id="1">
+      <ServerVersion>15.0.200</ServerVersion>
+      <ServerType>standalone</ServerType>
+    </root>
+    <database id="2" parent="1" name="AuthenLogin">
+      <ObjectId>7</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="3" parent="1" name="Hibernate">
+      <ObjectId>11</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="4" parent="1" name="LearnSQL">
+      <ObjectId>5</ObjectId>
+    </database>
+    <database id="5" parent="1" name="Lesson76">
+      <ObjectId>10</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="6" parent="1" name="MyWeb">
+      <ObjectId>6</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="7" parent="1" name="TestComment">
+      <ObjectId>9</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="8" parent="1" name="University">
+      <ObjectId>8</ObjectId>
+    </database>
+    <database id="9" parent="1" name="WorldEvents">
+      <ObjectId>21</ObjectId>
+    </database>
+    <database id="10" parent="1" name="department_db">
+      <ObjectId>17</ObjectId>
+    </database>
+    <database id="11" parent="1" name="hello">
+      <ObjectId>20</ObjectId>
+    </database>
+    <database id="12" parent="1" name="manager_uni">
+      <ObjectId>16</ObjectId>
+      <Visible>1</Visible>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="13" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Current>1</Current>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="14" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="15" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="16" parent="1" name="springMVC">
+      <ObjectId>12</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="17" parent="1" name="springboojwt">
+      <ObjectId>19</ObjectId>
+    </database>
+    <database id="18" parent="1" name="springboot">
+      <ObjectId>14</ObjectId>
+    </database>
+    <database id="19" parent="1" name="springbootexample">
+      <ObjectId>15</ObjectId>
+    </database>
+    <database id="20" parent="1" name="springmvcbasic">
+      <ObjectId>13</ObjectId>
+    </database>
+    <database id="21" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="22" parent="1" name="user_db">
+      <ObjectId>18</ObjectId>
+    </database>
+    <schema id="23" parent="12" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2023-10-19.03:37:11.173</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="24" parent="12" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="25" parent="12" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="26" parent="12" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <schema id="27" parent="12" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="28" parent="12" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="29" parent="12" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="30" parent="12" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="31" parent="12" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="32" parent="12" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="33" parent="12" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="34" parent="12" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="35" parent="12" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <table id="36" parent="23" name="classrooms">
+      <ObjectId>631009329</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.263</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.623</ModifiedTimestamp>
+    </table>
+    <table id="37" parent="23" name="courses">
+      <ObjectId>1776061413</ObjectId>
+      <CreatedTimestamp>2023-10-17.18:10:20.507</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:10:53.460</ModifiedTimestamp>
+    </table>
+    <table id="38" parent="23" name="grades">
+      <ObjectId>663009443</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.447</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.623</ModifiedTimestamp>
+    </table>
+    <table id="39" parent="23" name="groups">
+      <ObjectId>695009557</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.450</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-27.02:50:14.947</ModifiedTimestamp>
+    </table>
+    <table id="40" parent="23" name="majors">
+      <ObjectId>727009671</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.453</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:10:39.283</ModifiedTimestamp>
+    </table>
+    <table id="41" parent="23" name="register">
+      <ObjectId>435532635</ObjectId>
+      <CreatedTimestamp>2023-09-27.01:12:41.423</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-02.23:10:10.547</ModifiedTimestamp>
+    </table>
+    <table id="42" parent="23" name="register_of_major">
+      <ObjectId>1808061527</ObjectId>
+      <CreatedTimestamp>2023-10-17.18:10:23.017</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:13:06.867</ModifiedTimestamp>
+    </table>
+    <table id="43" parent="23" name="register_of_major_subject">
+      <ObjectId>1840061641</ObjectId>
+      <CreatedTimestamp>2023-10-17.18:10:23.047</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:10:39.893</ModifiedTimestamp>
+    </table>
+    <table id="44" parent="23" name="roles">
+      <ObjectId>759009785</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.453</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.650</ModifiedTimestamp>
+    </table>
+    <table id="45" parent="23" name="schoolyear">
+      <ObjectId>1856061698</ObjectId>
+      <CreatedTimestamp>2023-10-17.18:10:23.850</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:13:06.853</ModifiedTimestamp>
+    </table>
+    <table id="46" parent="23" name="schoolyear_course">
+      <ObjectId>1888061812</ObjectId>
+      <CreatedTimestamp>2023-10-17.18:10:23.880</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:10:40.427</ModifiedTimestamp>
+    </table>
+    <table id="47" parent="23" name="schoolyear_semester">
+      <ObjectId>1904061869</ObjectId>
+      <CreatedTimestamp>2023-10-17.18:10:23.903</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:10:41.177</ModifiedTimestamp>
+    </table>
+    <table id="48" parent="23" name="schoolyear_student">
+      <ObjectId>1920061926</ObjectId>
+      <CreatedTimestamp>2023-10-17.18:10:23.930</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:10:41.807</ModifiedTimestamp>
+    </table>
+    <table id="49" parent="23" name="semester">
+      <ObjectId>1936061983</ObjectId>
+      <CreatedTimestamp>2023-10-17.18:10:23.973</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:10:41.110</ModifiedTimestamp>
+    </table>
+    <table id="50" parent="23" name="student_classroom">
+      <ObjectId>791009899</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.480</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.627</ModifiedTimestamp>
+    </table>
+    <table id="51" parent="23" name="student_request">
+      <ObjectId>819534003</ObjectId>
+      <CreatedTimestamp>2023-09-27.02:50:08.430</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-02.22:58:53.580</ModifiedTimestamp>
+    </table>
+    <table id="52" parent="23" name="student_response">
+      <ObjectId>867534174</ObjectId>
+      <CreatedTimestamp>2023-09-27.02:50:08.640</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-02.22:58:05.830</ModifiedTimestamp>
+    </table>
+    <table id="53" parent="23" name="student_response_request">
+      <ObjectId>1043534801</ObjectId>
+      <CreatedTimestamp>2023-09-27.23:27:13.423</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-27.23:27:22.453</ModifiedTimestamp>
+    </table>
+    <table id="54" parent="23" name="students">
+      <ObjectId>871010184</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.503</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:10:53.457</ModifiedTimestamp>
+    </table>
+    <table id="55" parent="23" name="subject_group">
+      <ObjectId>935010412</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.533</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.643</ModifiedTimestamp>
+    </table>
+    <table id="56" parent="23" name="subject_major">
+      <ObjectId>951010469</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.533</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.647</ModifiedTimestamp>
+    </table>
+    <table id="57" parent="23" name="subject_major_schoolyear">
+      <ObjectId>1968062097</ObjectId>
+      <CreatedTimestamp>2023-10-17.18:10:28.323</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:13:06.860</ModifiedTimestamp>
+    </table>
+    <table id="58" parent="23" name="subjects">
+      <ObjectId>967010526</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.570</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:10:39.880</ModifiedTimestamp>
+    </table>
+    <table id="59" parent="23" name="teachers">
+      <ObjectId>999010640</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.570</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.650</ModifiedTimestamp>
+    </table>
+    <table id="60" parent="23" name="user_role">
+      <ObjectId>1031010754</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.570</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.653</ModifiedTimestamp>
+    </table>
+    <view id="61" parent="23" name="vw_InfoAfterExchange">
+      <ObjectId>1683537081</ObjectId>
+      <SourceTextLength>1353</SourceTextLength>
+      <CreatedTimestamp>2023-09-29.15:09:49.590</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-29.15:10:38.933</ModifiedTimestamp>
+    </view>
+    <routine id="62" parent="23" name="usp_CheckResponseIsEmpty">
+      <ObjectId>1091534972</ObjectId>
+      <SourceTextLength>603</SourceTextLength>
+      <CreatedTimestamp>2023-09-28.00:13:06.123</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-28.00:22:03.703</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="63" parent="23" name="usp_ConfirmResponse">
+      <ObjectId>1411536112</ObjectId>
+      <SourceTextLength>3220</SourceTextLength>
+      <CreatedTimestamp>2023-09-28.15:32:55.470</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-02.22:54:15.837</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="64" parent="23" name="usp_UpdateAction">
+      <ObjectId>496056853</ObjectId>
+      <SourceTextLength>1566</SourceTextLength>
+      <CreatedTimestamp>2023-10-01.22:00:12.107</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-01.22:30:14.107</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <column id="65" parent="36" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="66" parent="36" name="createby">
+      <Position>2</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="67" parent="36" name="createdate">
+      <Position>3</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="68" parent="36" name="modifiedby">
+      <Position>4</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="69" parent="36" name="modifieddate">
+      <Position>5</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="70" parent="36" name="class_room_id">
+      <Position>6</Position>
+      <DataType>varchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="71" parent="36" name="date_time">
+      <Position>7</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="72" parent="36" name="house">
+      <Position>8</Position>
+      <DataType>nvarchar(20 char)|0s</DataType>
+    </column>
+    <column id="73" parent="36" name="roomname">
+      <Position>9</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+    </column>
+    <column id="74" parent="36" name="studentquantity">
+      <Position>10</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="75" parent="36" name="subject_id">
+      <Position>11</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="76" parent="36" name="teacher_id">
+      <Position>12</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <index id="77" parent="36" name="PK__classroo__3213E83FC8155A1E">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="78" parent="36" name="UK_s2sqwxl79jxy34wwodeji0g2n">
+      <Position>2</Position>
+      <ColNames>class_room_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="79" parent="36" name="UK_k8c2wc3fyxmaijdori96jc918">
+      <Position>3</Position>
+      <ColNames>date_time</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="80" parent="36" name="PK__classroo__3213E83FC8155A1E">
+      <ObjectId>647009386</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-09-23.15:39:44.430</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.430</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__classroo__3213E83FC8155A1E</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="81" parent="36" name="UK_s2sqwxl79jxy34wwodeji0g2n">
+      <ObjectId>1079010925</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.587</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.587</ModifiedTimestamp>
+      <ColNames>class_room_id</ColNames>
+      <UnderlyingIndexName>UK_s2sqwxl79jxy34wwodeji0g2n</UnderlyingIndexName>
+    </key>
+    <key id="82" parent="36" name="UK_k8c2wc3fyxmaijdori96jc918">
+      <ObjectId>1095010982</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.590</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.590</ModifiedTimestamp>
+      <ColNames>date_time</ColNames>
+      <UnderlyingIndexName>UK_k8c2wc3fyxmaijdori96jc918</UnderlyingIndexName>
+    </key>
+    <foreign-key id="83" parent="36" name="FK7wfw4q3ucaoiemigp6pk4vuvv">
+      <ObjectId>1191011324</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.617</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.617</ModifiedTimestamp>
+      <ColNames>subject_id</ColNames>
+      <RefTableId>967010526</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>subjects</RefTableName>
+      <RefKeyName>PK__subjects__3213E83F5D190C70</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="84" parent="36" name="FKbyl3mbf2j46aa8i242b6gxjg1">
+      <ObjectId>1207011381</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.620</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.620</ModifiedTimestamp>
+      <ColNames>teacher_id</ColNames>
+      <RefTableId>999010640</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>teachers</RefTableName>
+      <RefKeyName>PK__teachers__3213E83FED9C687A</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="85" parent="37" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="86" parent="37" name="createby">
+      <Position>2</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="87" parent="37" name="createdate">
+      <Position>3</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="88" parent="37" name="modifiedby">
+      <Position>4</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="89" parent="37" name="modifieddate">
+      <Position>5</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="90" parent="37" name="code">
+      <Position>6</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="91" parent="37" name="course">
+      <Position>7</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <index id="92" parent="37" name="PK__courses__3213E83F379D8A7A">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="93" parent="37" name="PK__courses__3213E83F379D8A7A">
+      <ObjectId>1792061470</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-10-17.18:10:20.527</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:10:20.527</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__courses__3213E83F379D8A7A</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="94" parent="38" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="95" parent="38" name="createby">
+      <Position>2</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="96" parent="38" name="createdate">
+      <Position>3</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="97" parent="38" name="modifiedby">
+      <Position>4</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="98" parent="38" name="modifieddate">
+      <Position>5</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="99" parent="38" name="attend">
+      <Position>6</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="100" parent="38" name="endofterm">
+      <Position>7</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="101" parent="38" name="gpa">
+      <Position>8</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="102" parent="38" name="grade_id">
+      <Position>9</Position>
+      <DataType>varchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="103" parent="38" name="midterm">
+      <Position>10</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="104" parent="38" name="practice">
+      <Position>11</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="105" parent="38" name="test">
+      <Position>12</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="106" parent="38" name="student_id">
+      <Position>13</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="107" parent="38" name="subject_id">
+      <Position>14</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="108" parent="38" name="PK__grades__3213E83F21598938">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="109" parent="38" name="UK_kgtj4no1omy7phq525tyhkhe0">
+      <Position>2</Position>
+      <ColNames>grade_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="110" parent="38" name="PK__grades__3213E83F21598938">
+      <ObjectId>679009500</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-09-23.15:39:44.450</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.450</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__grades__3213E83F21598938</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="111" parent="38" name="UK_kgtj4no1omy7phq525tyhkhe0">
+      <ObjectId>1111011039</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.593</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.593</ModifiedTimestamp>
+      <ColNames>grade_id</ColNames>
+      <UnderlyingIndexName>UK_kgtj4no1omy7phq525tyhkhe0</UnderlyingIndexName>
+    </key>
+    <foreign-key id="112" parent="38" name="FK13a16545m7vvrcspc999r15s9">
+      <ObjectId>1223011438</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.620</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.620</ModifiedTimestamp>
+      <ColNames>student_id</ColNames>
+      <RefTableId>871010184</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>students</RefTableName>
+      <RefKeyName>PK__students__3213E83F2C4E783C</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="113" parent="38" name="FKrc0s5tgvm9r4ccxitaqtu88k5">
+      <ObjectId>1239011495</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.620</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.620</ModifiedTimestamp>
+      <ColNames>subject_id</ColNames>
+      <RefTableId>967010526</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>subjects</RefTableName>
+      <RefKeyName>PK__subjects__3213E83F5D190C70</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="114" parent="39" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="115" parent="39" name="createby">
+      <Position>2</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="116" parent="39" name="createdate">
+      <Position>3</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="117" parent="39" name="modifiedby">
+      <Position>4</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="118" parent="39" name="modifieddate">
+      <Position>5</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="119" parent="39" name="code">
+      <Position>6</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <index id="120" parent="39" name="PK__groups__3213E83F648F8DE4">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="121" parent="39" name="UK_16fame6je5oyjncqmbl1n5177">
+      <Position>2</Position>
+      <ColNames>code</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="122" parent="39" name="PK__groups__3213E83F648F8DE4">
+      <ObjectId>711009614</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-09-23.15:39:44.450</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.450</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__groups__3213E83F648F8DE4</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="123" parent="39" name="UK_16fame6je5oyjncqmbl1n5177">
+      <ObjectId>1127011096</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.597</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.597</ModifiedTimestamp>
+      <ColNames>code</ColNames>
+      <UnderlyingIndexName>UK_16fame6je5oyjncqmbl1n5177</UnderlyingIndexName>
+    </key>
+    <column id="124" parent="40" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="125" parent="40" name="createby">
+      <Position>2</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="126" parent="40" name="createdate">
+      <Position>3</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="127" parent="40" name="modifiedby">
+      <Position>4</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="128" parent="40" name="modifieddate">
+      <Position>5</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="129" parent="40" name="major_code">
+      <Position>7</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="130" parent="40" name="name">
+      <Position>8</Position>
+      <DataType>nvarchar(60 char)|0s</DataType>
+    </column>
+    <index id="131" parent="40" name="PK__majors__3213E83F9554E106">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="132" parent="40" name="UK_jys8l2mhbva9hsea850a16vhu">
+      <Position>2</Position>
+      <ColNames>major_code</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="133" parent="40" name="PK__majors__3213E83F9554E106">
+      <ObjectId>743009728</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-09-23.15:39:44.453</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.453</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__majors__3213E83F9554E106</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="134" parent="40" name="UK_jys8l2mhbva9hsea850a16vhu">
+      <ObjectId>1143011153</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.597</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.597</ModifiedTimestamp>
+      <ColNames>major_code</ColNames>
+      <UnderlyingIndexName>UK_jys8l2mhbva9hsea850a16vhu</UnderlyingIndexName>
+    </key>
+    <column id="135" parent="41" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="136" parent="41" name="createby">
+      <Position>2</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="137" parent="41" name="createdate">
+      <Position>3</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="138" parent="41" name="modifiedby">
+      <Position>4</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="139" parent="41" name="modifieddate">
+      <Position>5</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="140" parent="41" name="group_id">
+      <Position>6</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="141" parent="41" name="student_id">
+      <Position>7</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="142" parent="41" name="subject_id">
+      <Position>8</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="143" parent="41" name="status">
+      <Position>9</Position>
+      <DataType>bit|0s</DataType>
+    </column>
+    <index id="144" parent="41" name="PK__register__3213E83F7BAE6865">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="145" parent="41" name="PK__register__3213E83F7BAE6865">
+      <ObjectId>451532692</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-09-27.01:12:41.640</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-27.01:12:41.640</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__register__3213E83F7BAE6865</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="146" parent="41" name="FK5w651xdrvkxnp8ijg26jvm8tw">
+      <ObjectId>627533319</ObjectId>
+      <CreatedTimestamp>2023-09-27.01:12:49.407</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-27.01:12:49.407</ModifiedTimestamp>
+      <ColNames>group_id</ColNames>
+      <RefTableId>695009557</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>groups</RefTableName>
+      <RefKeyName>PK__groups__3213E83F648F8DE4</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="147" parent="41" name="FKcies0sqve3p6pwkf2jk55mw56">
+      <ObjectId>643533376</ObjectId>
+      <CreatedTimestamp>2023-09-27.01:12:49.410</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-27.01:12:49.410</ModifiedTimestamp>
+      <ColNames>student_id</ColNames>
+      <RefTableId>871010184</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>students</RefTableName>
+      <RefKeyName>PK__students__3213E83F2C4E783C</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="148" parent="41" name="FKnb9rmafxwul3d0945btuu10cj">
+      <ObjectId>659533433</ObjectId>
+      <CreatedTimestamp>2023-09-27.01:12:49.413</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-27.01:12:49.413</ModifiedTimestamp>
+      <ColNames>subject_id</ColNames>
+      <RefTableId>967010526</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>subjects</RefTableName>
+      <RefKeyName>PK__subjects__3213E83F5D190C70</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="149" parent="42" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="150" parent="42" name="createby">
+      <Position>2</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="151" parent="42" name="createdate">
+      <Position>3</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="152" parent="42" name="modifiedby">
+      <Position>4</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="153" parent="42" name="modifieddate">
+      <Position>5</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="154" parent="42" name="major_id">
+      <Position>6</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="155" parent="42" name="semester_id">
+      <Position>7</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <index id="156" parent="42" name="PK__register__3213E83F1751370C">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="157" parent="42" name="PK__register__3213E83F1751370C">
+      <ObjectId>1824061584</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-10-17.18:10:23.020</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:10:23.020</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__register__3213E83F1751370C</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="158" parent="42" name="FKa4blvbccppv106rlvbqw6hbax">
+      <ObjectId>1984062154</ObjectId>
+      <CreatedTimestamp>2023-10-17.18:10:39.277</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:10:39.277</ModifiedTimestamp>
+      <ColNames>major_id</ColNames>
+      <RefTableId>727009671</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>majors</RefTableName>
+      <RefKeyName>PK__majors__3213E83F9554E106</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="159" parent="42" name="FK4l176t5im5y7i5hwd57sd5osi">
+      <ObjectId>2000062211</ObjectId>
+      <CreatedTimestamp>2023-10-17.18:10:39.290</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:10:39.290</ModifiedTimestamp>
+      <ColNames>semester_id</ColNames>
+      <RefTableId>1936061983</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>semester</RefTableName>
+      <RefKeyName>PK__semester__3213E83FD44B3F4C</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="160" parent="43" name="register_of_major">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="161" parent="43" name="subject_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="162" parent="43" name="FKhnq14wn36f0wp2i9ooxo5iocw">
+      <ObjectId>2032062325</ObjectId>
+      <CreatedTimestamp>2023-10-17.18:10:39.893</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:10:39.893</ModifiedTimestamp>
+      <ColNames>register_of_major</ColNames>
+      <RefTableId>1808061527</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>register_of_major</RefTableName>
+      <RefKeyName>PK__register__3213E83F1751370C</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="163" parent="43" name="FK3pa8cplym7fd6cnvt6ltum4we">
+      <ObjectId>2016062268</ObjectId>
+      <CreatedTimestamp>2023-10-17.18:10:39.873</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:10:39.873</ModifiedTimestamp>
+      <ColNames>subject_id</ColNames>
+      <RefTableId>967010526</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>subjects</RefTableName>
+      <RefKeyName>PK__subjects__3213E83F5D190C70</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="164" parent="44" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="165" parent="44" name="createby">
+      <Position>2</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="166" parent="44" name="createdate">
+      <Position>3</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="167" parent="44" name="modifiedby">
+      <Position>4</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="168" parent="44" name="modifieddate">
+      <Position>5</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="169" parent="44" name="code">
+      <Position>6</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="170" parent="44" name="name">
+      <Position>7</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+    </column>
+    <index id="171" parent="44" name="PK__roles__3213E83FDB084E6F">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="172" parent="44" name="PK__roles__3213E83FDB084E6F">
+      <ObjectId>775009842</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-09-23.15:39:44.453</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.453</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__roles__3213E83FDB084E6F</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="173" parent="45" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="174" parent="45" name="createby">
+      <Position>2</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="175" parent="45" name="createdate">
+      <Position>3</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="176" parent="45" name="modifiedby">
+      <Position>4</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="177" parent="45" name="modifieddate">
+      <Position>5</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="178" parent="45" name="schoolyear">
+      <Position>6</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <index id="179" parent="45" name="PK__schoolye__3213E83FE3A2EB80">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="180" parent="45" name="PK__schoolye__3213E83FE3A2EB80">
+      <ObjectId>1872061755</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-10-17.18:10:23.857</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:10:23.857</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__schoolye__3213E83FE3A2EB80</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="181" parent="46" name="schoolyear_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="182" parent="46" name="course_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="183" parent="46" name="FK1wb51tk0688uemqt0vih9h3ax">
+      <ObjectId>2064062439</ObjectId>
+      <CreatedTimestamp>2023-10-17.18:10:40.427</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:10:40.427</ModifiedTimestamp>
+      <ColNames>schoolyear_id</ColNames>
+      <RefTableId>1856061698</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>schoolyear</RefTableName>
+      <RefKeyName>PK__schoolye__3213E83FE3A2EB80</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="184" parent="46" name="FKen8gsa3cv6n1v1esg07vns8cw">
+      <ObjectId>2048062382</ObjectId>
+      <CreatedTimestamp>2023-10-17.18:10:40.420</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:10:40.420</ModifiedTimestamp>
+      <ColNames>course_id</ColNames>
+      <RefTableId>1776061413</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>courses</RefTableName>
+      <RefKeyName>PK__courses__3213E83F379D8A7A</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="185" parent="47" name="schoolyear_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="186" parent="47" name="semester_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="187" parent="47" name="FKe9qlo0ixthkuglntsh10h7g3">
+      <ObjectId>2096062553</ObjectId>
+      <CreatedTimestamp>2023-10-17.18:10:41.177</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:10:41.177</ModifiedTimestamp>
+      <ColNames>schoolyear_id</ColNames>
+      <RefTableId>1856061698</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>schoolyear</RefTableName>
+      <RefKeyName>PK__schoolye__3213E83FE3A2EB80</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="188" parent="47" name="FKd6lvd2aycl0piw8wsx53hiimx">
+      <ObjectId>2080062496</ObjectId>
+      <CreatedTimestamp>2023-10-17.18:10:41.100</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:10:41.100</ModifiedTimestamp>
+      <ColNames>semester_id</ColNames>
+      <RefTableId>1936061983</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>semester</RefTableName>
+      <RefKeyName>PK__semester__3213E83FD44B3F4C</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="189" parent="48" name="schoolyear_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="190" parent="48" name="student_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="191" parent="48" name="FKi20e5et4abv7oawl6hr0oe9w9">
+      <ObjectId>2128062667</ObjectId>
+      <CreatedTimestamp>2023-10-17.18:10:41.807</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:10:41.807</ModifiedTimestamp>
+      <ColNames>schoolyear_id</ColNames>
+      <RefTableId>1856061698</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>schoolyear</RefTableName>
+      <RefKeyName>PK__schoolye__3213E83FE3A2EB80</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="192" parent="48" name="FK14q8mv3mqdpfpx551mhh0capx">
+      <ObjectId>2112062610</ObjectId>
+      <CreatedTimestamp>2023-10-17.18:10:41.800</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:10:41.800</ModifiedTimestamp>
+      <ColNames>student_id</ColNames>
+      <RefTableId>871010184</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>students</RefTableName>
+      <RefKeyName>PK__students__3213E83F2C4E783C</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="193" parent="49" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="194" parent="49" name="createby">
+      <Position>2</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="195" parent="49" name="createdate">
+      <Position>3</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="196" parent="49" name="modifiedby">
+      <Position>4</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="197" parent="49" name="modifieddate">
+      <Position>5</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="198" parent="49" name="semester">
+      <Position>6</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <index id="199" parent="49" name="PK__semester__3213E83FD44B3F4C">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="200" parent="49" name="PK__semester__3213E83FD44B3F4C">
+      <ObjectId>1952062040</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-10-17.18:10:23.987</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:10:23.987</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__semester__3213E83FD44B3F4C</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="201" parent="50" name="student_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="202" parent="50" name="classroom_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="203" parent="50" name="FKnqqcvcg2npue3u6wpuxihqxa1">
+      <ObjectId>1271011609</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.627</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.627</ModifiedTimestamp>
+      <ColNames>student_id</ColNames>
+      <RefTableId>871010184</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>students</RefTableName>
+      <RefKeyName>PK__students__3213E83F2C4E783C</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="204" parent="50" name="FKpd0dl8aqeckrh5ao2ib95vstk">
+      <ObjectId>1255011552</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.623</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.623</ModifiedTimestamp>
+      <ColNames>classroom_id</ColNames>
+      <RefTableId>631009329</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>classrooms</RefTableName>
+      <RefKeyName>PK__classroo__3213E83FC8155A1E</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="205" parent="51" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="206" parent="51" name="createby">
+      <Position>2</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="207" parent="51" name="createdate">
+      <Position>3</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="208" parent="51" name="modifiedby">
+      <Position>4</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="209" parent="51" name="modifieddate">
+      <Position>5</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="210" parent="51" name="group_id">
+      <Position>6</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="211" parent="51" name="student_id">
+      <Position>7</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="212" parent="51" name="subject_id">
+      <Position>8</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="213" parent="51" name="status">
+      <Position>9</Position>
+      <DefaultConstraintName>student_request_status_default</DefaultConstraintName>
+      <DataType>bit|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="214" parent="51" name="updateAt">
+      <Position>10</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="215" parent="51" name="exchange">
+      <Position>11</Position>
+      <DataType>bit|0s</DataType>
+    </column>
+    <index id="216" parent="51" name="PK__student___3213E83FA95AC580">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="217" parent="51" name="PK__student___3213E83FA95AC580">
+      <ObjectId>835534060</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-09-27.02:50:08.510</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-27.02:50:08.510</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__student___3213E83FA95AC580</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="218" parent="51" name="FK8c4ic8w9guq68356yt8qy9m4t">
+      <ObjectId>899534288</ObjectId>
+      <CreatedTimestamp>2023-09-27.02:50:14.507</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-27.02:50:14.507</ModifiedTimestamp>
+      <ColNames>group_id</ColNames>
+      <RefTableId>695009557</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>groups</RefTableName>
+      <RefKeyName>PK__groups__3213E83F648F8DE4</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="219" parent="51" name="FK44vmtde9cg1nk0rm6hjbpn3ho">
+      <ObjectId>915534345</ObjectId>
+      <CreatedTimestamp>2023-09-27.02:50:14.533</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-27.02:50:14.533</ModifiedTimestamp>
+      <ColNames>student_id</ColNames>
+      <RefTableId>871010184</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>students</RefTableName>
+      <RefKeyName>PK__students__3213E83F2C4E783C</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="220" parent="51" name="FKgjjbdqpyfqua8cdx06kqdty2s">
+      <ObjectId>931534402</ObjectId>
+      <CreatedTimestamp>2023-09-27.02:50:14.537</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-27.02:50:14.537</ModifiedTimestamp>
+      <ColNames>subject_id</ColNames>
+      <RefTableId>967010526</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>subjects</RefTableName>
+      <RefKeyName>PK__subjects__3213E83F5D190C70</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="221" parent="52" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="222" parent="52" name="createby">
+      <Position>2</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="223" parent="52" name="createdate">
+      <Position>3</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="224" parent="52" name="modifiedby">
+      <Position>4</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="225" parent="52" name="modifieddate">
+      <Position>5</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="226" parent="52" name="group_id">
+      <Position>6</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="227" parent="52" name="student_id">
+      <Position>7</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="228" parent="52" name="subject_id">
+      <Position>8</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="229" parent="52" name="status">
+      <Position>9</Position>
+      <DataType>bit|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="230" parent="52" name="updateAt">
+      <Position>10</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="231" parent="52" name="exchange">
+      <Position>11</Position>
+      <DataType>bit|0s</DataType>
+    </column>
+    <index id="232" parent="52" name="PK__student___3213E83F4268B746">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="233" parent="52" name="PK__student___3213E83F4268B746">
+      <ObjectId>883534231</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-09-27.02:50:08.643</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-27.02:50:08.643</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__student___3213E83F4268B746</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="234" parent="52" name="FKak0v30j8jexlsa7e8jmlkmr7x">
+      <ObjectId>979534573</ObjectId>
+      <CreatedTimestamp>2023-09-27.02:50:14.947</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-27.02:50:14.947</ModifiedTimestamp>
+      <ColNames>group_id</ColNames>
+      <RefTableId>695009557</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>groups</RefTableName>
+      <RefKeyName>PK__groups__3213E83F648F8DE4</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="235" parent="52" name="FK5aavf4img8upoimwv49gnlpw2">
+      <ObjectId>995534630</ObjectId>
+      <CreatedTimestamp>2023-09-27.02:50:14.950</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-27.02:50:14.950</ModifiedTimestamp>
+      <ColNames>student_id</ColNames>
+      <RefTableId>871010184</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>students</RefTableName>
+      <RefKeyName>PK__students__3213E83F2C4E783C</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="236" parent="52" name="FK2cu5ann6aqdloix0n40m7pkhh">
+      <ObjectId>1011534687</ObjectId>
+      <CreatedTimestamp>2023-09-27.02:50:14.953</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-27.02:50:14.953</ModifiedTimestamp>
+      <ColNames>subject_id</ColNames>
+      <RefTableId>967010526</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>subjects</RefTableName>
+      <RefKeyName>PK__subjects__3213E83F5D190C70</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="237" parent="53" name="student_response">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="238" parent="53" name="student_request">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="239" parent="53" name="FKseaj7w1v47m0ggaj06wrvp8nm">
+      <ObjectId>1075534915</ObjectId>
+      <CreatedTimestamp>2023-09-27.23:27:22.453</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-27.23:27:22.453</ModifiedTimestamp>
+      <ColNames>student_response</ColNames>
+      <RefTableId>867534174</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>student_response</RefTableName>
+      <RefKeyName>PK__student___3213E83F4268B746</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="240" parent="53" name="FK40bcoi3aavxipu0r7g5fa2y77">
+      <ObjectId>1059534858</ObjectId>
+      <CreatedTimestamp>2023-09-27.23:27:22.437</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-27.23:27:22.437</ModifiedTimestamp>
+      <ColNames>student_request</ColNames>
+      <RefTableId>819534003</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>student_request</RefTableName>
+      <RefKeyName>PK__student___3213E83FA95AC580</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="241" parent="54" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="242" parent="54" name="createby">
+      <Position>2</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="243" parent="54" name="createdate">
+      <Position>3</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="244" parent="54" name="modifiedby">
+      <Position>4</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="245" parent="54" name="modifieddate">
+      <Position>5</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="246" parent="54" name="address">
+      <Position>6</Position>
+      <DataType>nvarchar(100 char)|0s</DataType>
+    </column>
+    <column id="247" parent="54" name="birthofdate">
+      <Position>7</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="248" parent="54" name="email">
+      <Position>8</Position>
+      <DataType>varchar(80 char)|0s</DataType>
+    </column>
+    <column id="249" parent="54" name="fullname">
+      <Position>9</Position>
+      <DataType>nvarchar(80 char)|0s</DataType>
+    </column>
+    <column id="250" parent="54" name="password">
+      <Position>10</Position>
+      <DataType>varchar(100 char)|0s</DataType>
+    </column>
+    <column id="251" parent="54" name="phone_number">
+      <Position>11</Position>
+      <DataType>varchar(15 char)|0s</DataType>
+    </column>
+    <column id="252" parent="54" name="username">
+      <Position>12</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="253" parent="54" name="major_id">
+      <Position>13</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="254" parent="54" name="course_id">
+      <Position>14</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <index id="255" parent="54" name="PK__students__3213E83F2C4E783C">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="256" parent="54" name="UK_akwqgcdnid3qo41cqpdu4ke01">
+      <Position>2</Position>
+      <ColNames>username</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="257" parent="54" name="PK__students__3213E83F2C4E783C">
+      <ObjectId>887010241</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-09-23.15:39:44.527</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.527</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__students__3213E83F2C4E783C</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="258" parent="54" name="UK_akwqgcdnid3qo41cqpdu4ke01">
+      <ObjectId>1159011210</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.600</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.600</ModifiedTimestamp>
+      <ColNames>username</ColNames>
+      <UnderlyingIndexName>UK_akwqgcdnid3qo41cqpdu4ke01</UnderlyingIndexName>
+    </key>
+    <foreign-key id="259" parent="54" name="FKi04cc0278a1f49g0995mnuo63">
+      <ObjectId>1351011894</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.637</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.637</ModifiedTimestamp>
+      <ColNames>major_id</ColNames>
+      <RefTableId>727009671</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>majors</RefTableName>
+      <RefKeyName>PK__majors__3213E83F9554E106</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="260" parent="54" name="FK6jiqckumc6tm0h9otqbtqhgnr">
+      <ObjectId>2144062724</ObjectId>
+      <CreatedTimestamp>2023-10-17.18:10:53.457</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:10:53.457</ModifiedTimestamp>
+      <ColNames>course_id</ColNames>
+      <RefTableId>1776061413</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>courses</RefTableName>
+      <RefKeyName>PK__courses__3213E83F379D8A7A</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="261" parent="55" name="subject_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="262" parent="55" name="group_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="263" parent="55" name="FKcmy1fvj5hosin5kprdd465e2h">
+      <ObjectId>1399012065</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.643</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.643</ModifiedTimestamp>
+      <ColNames>subject_id</ColNames>
+      <RefTableId>967010526</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>subjects</RefTableName>
+      <RefKeyName>PK__subjects__3213E83F5D190C70</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="264" parent="55" name="FK99llqfgreiooty9ckh5mba4j6">
+      <ObjectId>1383012008</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.640</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.640</ModifiedTimestamp>
+      <ColNames>group_id</ColNames>
+      <RefTableId>695009557</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>groups</RefTableName>
+      <RefKeyName>PK__groups__3213E83F648F8DE4</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="265" parent="56" name="subject_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="266" parent="56" name="major_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="267" parent="56" name="FKa6enijhor6u00a34roqpbmoaw">
+      <ObjectId>1431012179</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.647</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.647</ModifiedTimestamp>
+      <ColNames>subject_id</ColNames>
+      <RefTableId>967010526</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>subjects</RefTableName>
+      <RefKeyName>PK__subjects__3213E83F5D190C70</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="268" parent="56" name="FKon0sa2j70a3dbspbay9m7rvw7">
+      <ObjectId>1415012122</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.643</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.643</ModifiedTimestamp>
+      <ColNames>major_id</ColNames>
+      <RefTableId>727009671</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>majors</RefTableName>
+      <RefKeyName>PK__majors__3213E83F9554E106</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="269" parent="57" name="register_major_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="270" parent="57" name="schoolyear_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="271" parent="57" name="FK2mtl8deoykuemlxooq36wt6em">
+      <ObjectId>284580102</ObjectId>
+      <CreatedTimestamp>2023-10-17.18:13:06.860</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:13:06.860</ModifiedTimestamp>
+      <ColNames>register_major_id</ColNames>
+      <RefTableId>1808061527</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>register_of_major</RefTableName>
+      <RefKeyName>PK__register__3213E83F1751370C</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="272" parent="57" name="FKecbiq2oe2cgg2ltohd4iw5lo8">
+      <ObjectId>268580045</ObjectId>
+      <CreatedTimestamp>2023-10-17.18:13:06.853</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-17.18:13:06.853</ModifiedTimestamp>
+      <ColNames>schoolyear_id</ColNames>
+      <RefTableId>1856061698</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>schoolyear</RefTableName>
+      <RefKeyName>PK__schoolye__3213E83FE3A2EB80</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="273" parent="58" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="274" parent="58" name="createby">
+      <Position>2</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="275" parent="58" name="createdate">
+      <Position>3</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="276" parent="58" name="modifiedby">
+      <Position>4</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="277" parent="58" name="modifieddate">
+      <Position>5</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="278" parent="58" name="credit">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="279" parent="58" name="enddate">
+      <Position>7</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="280" parent="58" name="startdate">
+      <Position>8</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="281" parent="58" name="subject_code">
+      <Position>9</Position>
+      <DataType>varchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="282" parent="58" name="subjectname">
+      <Position>10</Position>
+      <DataType>nvarchar(60 char)|0s</DataType>
+    </column>
+    <index id="283" parent="58" name="PK__subjects__3213E83F5D190C70">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="284" parent="58" name="subjects_subject_code_uindex">
+      <Position>2</Position>
+      <ColNames>subject_code</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="285" parent="58" name="PK__subjects__3213E83F5D190C70">
+      <ObjectId>983010583</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-09-23.15:39:44.570</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.570</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__subjects__3213E83F5D190C70</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="286" parent="59" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="287" parent="59" name="createby">
+      <Position>2</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="288" parent="59" name="createdate">
+      <Position>3</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="289" parent="59" name="modifiedby">
+      <Position>4</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="290" parent="59" name="modifieddate">
+      <Position>5</Position>
+      <DataType>datetime2|0s</DataType>
+    </column>
+    <column id="291" parent="59" name="address">
+      <Position>6</Position>
+      <DataType>nvarchar(100 char)|0s</DataType>
+    </column>
+    <column id="292" parent="59" name="birthofdate">
+      <Position>7</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="293" parent="59" name="email">
+      <Position>8</Position>
+      <DataType>varchar(80 char)|0s</DataType>
+    </column>
+    <column id="294" parent="59" name="fullname">
+      <Position>9</Position>
+      <DataType>nvarchar(80 char)|0s</DataType>
+    </column>
+    <column id="295" parent="59" name="password">
+      <Position>10</Position>
+      <DataType>varchar(100 char)|0s</DataType>
+    </column>
+    <column id="296" parent="59" name="phone_number">
+      <Position>11</Position>
+      <DataType>varchar(15 char)|0s</DataType>
+    </column>
+    <column id="297" parent="59" name="username">
+      <Position>12</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="298" parent="59" name="major_id">
+      <Position>13</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="299" parent="59" name="subject_id">
+      <Position>14</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <index id="300" parent="59" name="PK__teachers__3213E83FED9C687A">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="301" parent="59" name="UK_eoxl6ynhdahri3g5qfrdhflwv">
+      <Position>2</Position>
+      <ColNames>username</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="302" parent="59" name="PK__teachers__3213E83FED9C687A">
+      <ObjectId>1015010697</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-09-23.15:39:44.570</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.570</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__teachers__3213E83FED9C687A</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="303" parent="59" name="UK_eoxl6ynhdahri3g5qfrdhflwv">
+      <ObjectId>1175011267</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.600</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.600</ModifiedTimestamp>
+      <ColNames>username</ColNames>
+      <UnderlyingIndexName>UK_eoxl6ynhdahri3g5qfrdhflwv</UnderlyingIndexName>
+    </key>
+    <foreign-key id="304" parent="59" name="FKjksv9gaotsiv17nvh33ahw3al">
+      <ObjectId>1447012236</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.647</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.647</ModifiedTimestamp>
+      <ColNames>major_id</ColNames>
+      <RefTableId>727009671</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>majors</RefTableName>
+      <RefKeyName>PK__majors__3213E83F9554E106</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="305" parent="59" name="FKsahkj7ew9hfs6byrpl75br5lx">
+      <ObjectId>1463012293</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.647</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.647</ModifiedTimestamp>
+      <ColNames>subject_id</ColNames>
+      <RefTableId>967010526</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>subjects</RefTableName>
+      <RefKeyName>PK__subjects__3213E83F5D190C70</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="306" parent="60" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="307" parent="60" name="role_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="308" parent="60" name="FK9y5qeyiue1ac0cjpq0b5cmaa8">
+      <ObjectId>1495012407</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.650</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.650</ModifiedTimestamp>
+      <ColNames>user_id</ColNames>
+      <RefTableId>871010184</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>students</RefTableName>
+      <RefKeyName>PK__students__3213E83F2C4E783C</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="309" parent="60" name="FKt7e7djp752sqn6w22i6ocqy6q">
+      <ObjectId>1479012350</ObjectId>
+      <CreatedTimestamp>2023-09-23.15:39:44.650</CreatedTimestamp>
+      <ModifiedTimestamp>2023-09-23.15:39:44.650</ModifiedTimestamp>
+      <ColNames>role_id</ColNames>
+      <RefTableId>759009785</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>roles</RefTableName>
+      <RefKeyName>PK__roles__3213E83FDB084E6F</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="310" parent="61" name="registerId">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="311" parent="61" name="subjectCode">
+      <Position>2</Position>
+      <DataType>varchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="312" parent="61" name="studentRequest">
+      <Position>3</Position>
+      <DataType>nvarchar(80 char)|0s</DataType>
+    </column>
+    <column id="313" parent="61" name="subjectRequest">
+      <Position>4</Position>
+      <DataType>nvarchar(60 char)|0s</DataType>
+    </column>
+    <column id="314" parent="61" name="groupRequest">
+      <Position>5</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="315" parent="61" name="studentResponse">
+      <Position>6</Position>
+      <DataType>nvarchar(80 char)|0s</DataType>
+    </column>
+    <column id="316" parent="61" name="subjectResponse">
+      <Position>7</Position>
+      <DataType>nvarchar(60 char)|0s</DataType>
+    </column>
+    <column id="317" parent="61" name="groupCode">
+      <Position>8</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <argument id="318" parent="62" name="@studentRequestId">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+    </argument>
+    <argument id="319" parent="62" name="@studentResponseId">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+    </argument>
+    <argument id="320" parent="63" name="@studentRequestId">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+    </argument>
+    <argument id="321" parent="63" name="@studentResponseId">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+    </argument>
+    <argument id="322" parent="63" name="@result">
+      <Position>3</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>bit|0s</DataType>
+    </argument>
+    <argument id="323" parent="64" name="@studentRequestId">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+    </argument>
+    <argument id="324" parent="64" name="@studentResponseId">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+    </argument>
+  </database-model>
+</dataSource>
