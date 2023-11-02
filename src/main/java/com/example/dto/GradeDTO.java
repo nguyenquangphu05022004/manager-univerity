@@ -12,9 +12,8 @@ import java.util.Date;
 @SuperBuilder(toBuilder = true)
 @NoArgsConstructor
 public class GradeDTO extends GenericDTO{
-        private String gradeCode;
-        private Long subjectId;
-        private Long studentId;
+        private Long registerId;
+        private RegisterDTO registerDTO;
         private Float attend;
         private Float midterm;
         private Float endOfTerm;

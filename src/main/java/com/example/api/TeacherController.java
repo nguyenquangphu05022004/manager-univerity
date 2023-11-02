@@ -25,7 +25,8 @@ public class TeacherController {
         return teacherService.save(teacherDTO);
     }
     @PutMapping("/api/teachers/{id}")
-    public TeacherDTO updateTeacher(@PathVariable Long id, @RequestBody TeacherDTO teacherDTO) {
+    public TeacherDTO updateTeacher(@PathVariable Long id,
+                                    @RequestBody TeacherDTO teacherDTO) {
         return teacherService.save(teacherDTO.toBuilder().id(id).build());
     }
     @DeleteMapping("/api/teachers")

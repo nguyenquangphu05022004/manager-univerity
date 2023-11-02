@@ -15,12 +15,8 @@ import java.util.List;
 @Getter
 public class SchoolYear extends Base{
 
-    @ManyToMany
-    @JoinTable(name = "schoolyear_semester",
-        joinColumns =  @JoinColumn(name = "schoolyear_id"),
-            inverseJoinColumns =  @JoinColumn(name = "semester_id")
-    )
-    private List<Semester> semesters = new ArrayList<>();
+    @OneToMany(mappedBy = "schoolYear")
+    private List<SemesterOfYear> semesterOfYears = new ArrayList<>();
 
     @Column(name = "schoolyear")
     private String schoolYear;
@@ -40,7 +36,7 @@ public class SchoolYear extends Base{
     )
     private List<Course> courses = new ArrayList<>();
 
-    @ManyToMany(mappedBy =  "schoolYears")
+    @OneToMany(mappedBy =  "schoolYear")
     private List<RegisterOfMajor> registerOfMajors = new ArrayList<>();
 
 }

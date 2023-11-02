@@ -12,7 +12,6 @@ import java.util.List;
 @NoArgsConstructor
 public class GroupDTO extends GenericDTO {
     private String code;
-    private List<SubjectDTO> subjectDTOS;
 
 
 }

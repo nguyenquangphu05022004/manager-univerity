@@ -24,12 +24,12 @@ public class RegisterOfMajor extends Base{
     )
     private List<Subject> subjects = new ArrayList<>();
 
-    @ManyToMany
-    @JoinTable(name = "subject_major_schoolyear",
-        joinColumns = @JoinColumn(name = "register_major_id"),
-            inverseJoinColumns = @JoinColumn(name = "schoolyear_id")
-    )
-    private List<SchoolYear> schoolYears = new ArrayList<>();
+    @OneToMany(mappedBy = "registerOfMajor")
+    private List<Register> registers = new ArrayList<>();
+
+    @ManyToOne
+    @JoinColumn(name = "schoolYearId")
+    private SchoolYear schoolYear;
 
     @ManyToOne
     @JoinColumn(name = "semester_id")

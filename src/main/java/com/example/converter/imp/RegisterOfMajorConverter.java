@@ -18,12 +18,11 @@ public class RegisterOfMajorConverter implements GenericConverter<RegisterOfMajo
     @Autowired
     private SemesterConverter semesterConverter;
     @Autowired
-    private SubjectConverter subjectConverter;
-    @Autowired
     private SchoolYearConverter schoolYearConverter;
     @Autowired
     private MajorConverter majorConverter;
-
+    @Autowired
+    private SubjectConverter subjectConverter;
 
     @Override
     public RegisterOfMajor toEntity(RegisterOfMajorDTO dto) {
@@ -35,8 +34,8 @@ public class RegisterOfMajorConverter implements GenericConverter<RegisterOfMajo
         return RegisterOfMajorDTO.builder()
                 .semesterDTO(semesterConverter.toDto(entity.getSemester()))
                 .majorDTO(majorConverter.toDto(entity.getMajor()))
+                .schoolYearDTO(schoolYearConverter.toDto(entity.getSchoolYear()))
                 .subjects(subjectConverter.dtoList(entity.getSubjects()))
-                .schoolYearDTO(schoolYearConverter.toDto(entity.getSchoolYears().get(0)))
                 .build();
     }
 

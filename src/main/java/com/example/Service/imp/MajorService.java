@@ -2,25 +2,16 @@ package com.example.Service.imp;
 
 import com.example.Service.GenericService;
 import com.example.converter.GenericConverter;
-import com.example.converter.imp.StudentConverter;
-import com.example.converter.imp.SubjectConverter;
-import com.example.converter.imp.TeacherConverter;
+import com.example.converter.imp.MajorConverter;
 import com.example.dto.MajorDTO;
-import com.example.dto.StudentDTO;
-import com.example.dto.SubjectDTO;
-import com.example.dto.TeacherDTO;
 import com.example.entity.Major;
-import com.example.entity.Student;
-import com.example.entity.Subject;
-import com.example.entity.Teacher;
 import com.example.exception.ResourceNotFoundException;
-import com.example.repository.*;
+import com.example.repository.MajorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 @Service("majorService")
 public class MajorService implements GenericService<MajorDTO> {
@@ -28,19 +19,7 @@ public class MajorService implements GenericService<MajorDTO> {
     @Autowired
     private MajorRepository majorRepository;
     @Autowired
-    private GenericConverter<Major, MajorDTO> converter;
-    @Autowired
-    private StudentRepository studentRepository;
-    @Autowired
-    private StudentConverter studentConverter;
-    @Autowired
-    private SubjectRepository subjectRepository;
-    @Autowired
-    private SubjectConverter subjectConverter;
-    @Autowired
-    private TeacherRepository teacherRepository;
-    @Autowired
-    private TeacherConverter teacherConverter;
+    private MajorConverter converter;
 
     @Override
     public MajorDTO save(MajorDTO object) {

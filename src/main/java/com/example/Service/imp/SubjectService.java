@@ -23,8 +23,8 @@ public class SubjectService implements GenericService<SubjectDTO> {
 
     @Autowired
     public SubjectService(SubjectConverter converter,
-            SubjectRepository subjectRepository,
-            GenericSearchBy genericSearchBy) {
+                          SubjectRepository subjectRepository,
+                          GenericSearchBy genericSearchBy) {
         this.converter = converter;
         this.subjectRepository = subjectRepository;
         this.genericSearchBy = genericSearchBy;
@@ -43,9 +43,9 @@ public class SubjectService implements GenericService<SubjectDTO> {
         for (String code : object.getMajorCode()) {
             subject.getMajors().add(genericSearchBy.findByCodeMajor(code));
         }
-
-        return converter.toDto(subjectRepository
-                .save(subject));
+        subject = subjectRepository
+                .save(subject);
+        return converter.toDto(subject);
     }
 
     @Override
@@ -80,14 +80,22 @@ public class SubjectService implements GenericService<SubjectDTO> {
     }
 
     public List<SubjectDTO> getAllByRegisterOfMajorByMajorCurrent() {
-        Student student = genericSearchBy
-                .findStudentByUsername(SecurityContextHolder
-                        .getContext()
-                        .getAuthentication()
-                        .getName());
-        return converter.dtoList(genericSearchBy
-                .findAllSubjectByMajorIdOfRegisterOfMajor(
-                        student.getMajor().getId()));
+//        Student student = genericSearchBy
+//                .findStudentByUsername(SecurityContextHolder
+//                        .getContext()
+//                        .getAuthentication()
+//                        .getName());
+//        return converter.dtoList(genericSearchBy
+//                .findAllSubjectByMajorIdOfRegisterOfMajor(
+//                        student.getMajor().getId()));
+        return null;
+    }
+
+    public List<SubjectDTO> getAllByMajorIdAndSchoolYearIdAndCourseIdAndSemesterId(Long majorId, Long schoolYearId, Long courseId, Long semesterId) {
+        return converter.dtoList
+                (subjectRepository
+                        .findAllByMajorIdAndSchoolYearIdAndCourseIdAndSemesterId
+                                (majorId, schoolYearId, courseId, semesterId));
     }
 
 }

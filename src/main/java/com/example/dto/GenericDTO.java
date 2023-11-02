@@ -17,6 +17,8 @@ public abstract class GenericDTO {
     private String createBy;
     private String modifiedBy;
     private Date modifiedDate;
-
+    public GenericDTO(Long id) {
+        this.id = id;
+    }
 
 }

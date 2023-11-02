@@ -7,7 +7,7 @@ import lombok.experimental.SuperBuilder;
 @Getter
 @SuperBuilder(toBuilder = true)
 @NoArgsConstructor
-public class StudentDTO extends PersonDTO{
-    private Long subjectId;
-    private String roles;
+public class StudentDTO extends GenericDTO{
+    private PersonDTO personDTO;
+    private CourseDTO courseDTO;
 }

@@ -22,5 +22,10 @@ public class Role extends Base {
     @Column(columnDefinition = "varchar(20)")
     private String code;
     @ManyToMany(mappedBy = "roles")
-    private List<Student> users = new ArrayList<>();
+    private List<Person> persons = new ArrayList<>();
+
+    @Override
+    public String toString() {
+        return code;
+    }
 }

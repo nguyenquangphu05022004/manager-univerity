@@ -6,6 +6,9 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
 import java.sql.Date;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 @Getter
 @SuperBuilder(toBuilder = true)
@@ -20,5 +23,5 @@ public class PersonDTO extends GenericDTO{
     private String majorCode;
     private String username;
     private String password;
-
+    private Set<String> roles = new HashSet<>();
 }

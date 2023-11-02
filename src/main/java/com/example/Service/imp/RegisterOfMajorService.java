@@ -3,13 +3,12 @@ package com.example.Service.imp;
 import com.example.Service.GenericService;
 import com.example.converter.imp.RegisterOfMajorConverter;
 import com.example.dto.RegisterOfMajorDTO;
-import com.example.dto.SubjectDTO;
 import com.example.entity.*;
+import com.example.exception.ResourceNotFoundException;
 import com.example.repository.RegisterOfMajorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -23,11 +22,11 @@ public class RegisterOfMajorService implements GenericService<RegisterOfMajorDTO
     private RegisterOfMajorConverter registerOfMajorConverter;
     @Autowired
     private RegisterOfMajorRepository registerOfMajorRepository;
+
     @Override
     public RegisterOfMajorDTO save(RegisterOfMajorDTO object) {
         Semester semester = searchBy.findSemesterById(object.getSemesterDTO().getId());
         SchoolYear schoolYear = searchBy.findSchoolYearById(object.getSchoolYearDTO().getId());
-        List<SchoolYear> schoolYears = new ArrayList<>(); schoolYears.add(schoolYear);
         Major major = searchBy.findMajorById(object.getMajorDTO().getId());
         Set<Subject> subjects = new HashSet<>();
         object.getSubjects().forEach((s) -> {
@@ -35,7 +34,7 @@ public class RegisterOfMajorService implements GenericService<RegisterOfMajorDTO
         });
         RegisterOfMajor registerOfMajor = RegisterOfMajor.builder()
                 .major(major)
-                .schoolYears(schoolYears)
+                .schoolYear(schoolYear)
                 .semester(semester)
                 .subjects(subjects.stream().collect(Collectors.toList()))
                 .build();
@@ -57,7 +56,12 @@ public class RegisterOfMajorService implements GenericService<RegisterOfMajorDTO
 
     @Override
     public RegisterOfMajorDTO getById(Long id) {
-        return null;
+        return registerOfMajorConverter
+                .toDto(registerOfMajorRepository
+                        .findOneById(id)
+                        .orElseThrow(() -> {
+                            return new ResourceNotFoundException("Not found RegisterOfMajor with Id: " + id);
+                        }));
     }
 
     @Override
@@ -65,10 +69,5 @@ public class RegisterOfMajorService implements GenericService<RegisterOfMajorDTO
         return null;
     }
 
-    public List<RegisterOfMajorDTO> getListByMajorId(Long majorId) {
-        return registerOfMajorConverter
-                .dtoList(searchBy
-                        .findMajorById(majorId)
-                        .getRegisterOfMajors());
-    }
+
 }

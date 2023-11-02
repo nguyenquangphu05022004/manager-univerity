@@ -4,13 +4,11 @@ import com.example.Service.GenericService;
 import com.example.converter.imp.GroupConverter;
 import com.example.dto.GroupDTO;
 import com.example.entity.Group;
-import com.example.entity.Subject;
 import com.example.repository.GroupRepository;
 import com.example.repository.SubjectRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 @Service("groupOfService")
 public class GroupService implements GenericService<GroupDTO> {

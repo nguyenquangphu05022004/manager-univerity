@@ -15,8 +15,8 @@ import java.util.List;
 public class MajorDTO extends GenericDTO {
     private String majorCode;
     private String name;
-    private List<StudentDTO> studentList = new ArrayList<>();
-    private List<SubjectDTO> subjects = new ArrayList<>();
-    private List<TeacherDTO> teachers = new ArrayList<>();
+//    private List<StudentDTO> studentList = new ArrayList<>();
+//    private List<SubjectDTO> subjects = new ArrayList<>();
+//    private List<TeacherDTO> teachers = new ArrayList<>();
 
 }

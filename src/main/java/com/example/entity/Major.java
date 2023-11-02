@@ -24,14 +24,12 @@ public class Major extends Base{
     private String majorCode;
     @Column(columnDefinition = "nvarchar(60)")
     private String name;
-    @OneToMany(mappedBy = "major")
-    private List<Student> studentList = new ArrayList<>();
+
+
 
     @ManyToMany(mappedBy = "majors")
     private List<Subject> subjects = new ArrayList<>();
 
-    @OneToMany(mappedBy = "major")
-    private List<Teacher> teachers = new ArrayList<>();
 
 
     @OneToMany(mappedBy = "major")

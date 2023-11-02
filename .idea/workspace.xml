@@ -2,13 +2,205 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a93e7486-e1b7-4413-aa21-07142ce6841a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../react-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react-frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../react-frontend/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../react-frontend/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../react-frontend/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-frontend/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentExchangeRegisterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentRequestExchangeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/api/subject/exchange/StudentExchangeRegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/api/subject/exchange/StudentRequestExchangeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/converter/imp/StudentExchangeRegisterConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/converter/imp/StudentRequestExchangeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dto/StudentRequestExchangeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/StudentRequestExchange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/StudentExchangeRegisterRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/StudentRequestExchangeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d0a5c32-1265-4827-b668-94dc821084cf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1d0a5c32-1265-4827-b668-94dc821084cf.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d0a5c32-1265-4827-b668-94dc821084cf/storage_v2/_src_/database/manager_uni.XmVcAg/schema/dbo.sYMBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1d0a5c32-1265-4827-b668-94dc821084cf/storage_v2/_src_/database/manager_uni.XmVcAg/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d0a5c32-1265-4827-b668-94dc821084cf/storage_v2/_src_/database/manager_uni.XmVcAg/schema/dbo.sYMBAA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1d0a5c32-1265-4827-b668-94dc821084cf/storage_v2/_src_/database/manager_uni.XmVcAg/schema/dbo.sYMBAA.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/GenericSearchBy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/GenericSearchBy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/GradeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/GradeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/GroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/GroupService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/MajorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/MajorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/RegisterOfMajorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/RegisterOfMajorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/RegisterSubjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/RegisterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/RoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/RoomService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/SchoolYearService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/SchoolYearService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentRequestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentResponseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/SubjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/SubjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Service/imp/TeacherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/api/RegisterOfMajorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/api/RegisterOfMajorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/api/RegisterSubjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/api/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/api/SubjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/api/SubjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/api/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/api/TeacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/api/subject/exchange/StudentRequestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/api/subject/exchange/StudentResponseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/config/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/config/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/config/TokenProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/config/TokenProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/config/WebSercurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/config/WebSercurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/converter/imp/ClassRoomConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/converter/imp/ClassRoomConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/converter/imp/GradeConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/converter/imp/GradeConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/converter/imp/MajorConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/converter/imp/MajorConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/converter/imp/RegisterConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/converter/imp/RegisterConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/converter/imp/RegisterOfMajorConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/converter/imp/RegisterOfMajorConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/converter/imp/SchoolYearConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/converter/imp/SchoolYearConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/converter/imp/StudentConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/converter/imp/StudentConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/converter/imp/StudentRequestConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/converter/imp/StudentResponseConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/converter/imp/SubjectConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/converter/imp/SubjectConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/converter/imp/TeacherConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/converter/imp/TeacherConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dto/ClassRoomDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dto/ClassRoomDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dto/GenericDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dto/GenericDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dto/GradeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dto/GradeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dto/GroupDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dto/GroupDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dto/MajorDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dto/MajorDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dto/PersonDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dto/PersonDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dto/RegisterDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dto/RegisterDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dto/StudentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dto/StudentDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dto/StudentRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dto/StudentExchangeRegisterDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dto/StudentResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dto/SubjectDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dto/SubjectDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dto/TeacherDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dto/TeacherDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/ClassRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/ClassRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/Grade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/Major.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/Major.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/RegisterOfMajor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/RegisterOfMajor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/SchoolYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/SchoolYear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/Semester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/Semester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/StudentRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/StudentExchangeRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/StudentResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repository/RegisterOfMajorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/RegisterOfMajorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repository/RegisterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/RegisterRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repository/SemesterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/SemesterRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repository/StudentRequestRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repository/StudentResponseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repository/SubjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/SubjectRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repository/TeacherRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/TeacherRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Service/imp/CourseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Service/imp/CourseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Service/imp/CustomUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Service/imp/CustomUserDetailsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Service/imp/GenericSearchBy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Service/imp/GenericSearchBy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Service/imp/GradeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Service/imp/GradeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Service/imp/GroupService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Service/imp/GroupService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Service/imp/MajorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Service/imp/MajorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Service/imp/RegisterOfMajorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Service/imp/RegisterOfMajorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Service/imp/RegisterSubjectService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Service/imp/RoomService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Service/imp/RoomService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Service/imp/SchoolYearService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Service/imp/SchoolYearService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Service/imp/StudentRequestService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Service/imp/StudentResponseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Service/imp/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Service/imp/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Service/imp/SubjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Service/imp/SubjectService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Service/imp/TeacherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Service/imp/TeacherService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/api/RegisterOfMajorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/api/RegisterOfMajorController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/api/RegisterSubjectController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/api/SubjectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/api/SubjectController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/api/TeacherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/api/TeacherController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/api/subject/exchange/StudentRequestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/api/subject/exchange/StudentResponseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/config/JwtAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/config/JwtAuthenticationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/config/TokenProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/config/TokenProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/config/WebSercurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/config/WebSercurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/converter/imp/ClassRoomConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/converter/imp/ClassRoomConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/converter/imp/GradeConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/converter/imp/GradeConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/converter/imp/MajorConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/converter/imp/MajorConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/converter/imp/RegisterConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/converter/imp/RegisterConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/converter/imp/RegisterOfMajorConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/converter/imp/RegisterOfMajorConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/converter/imp/SchoolYearConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/converter/imp/SchoolYearConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/converter/imp/StudentConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/converter/imp/StudentConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/converter/imp/StudentRequestConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/converter/imp/StudentResponseConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/converter/imp/SubjectConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/converter/imp/SubjectConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/converter/imp/TeacherConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/converter/imp/TeacherConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/ClassRoomDTO$ClassRoomDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/dto/ClassRoomDTO$ClassRoomDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/ClassRoomDTO$ClassRoomDTOBuilderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/dto/ClassRoomDTO$ClassRoomDTOBuilderImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/ClassRoomDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/dto/ClassRoomDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/GenericDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/dto/GenericDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/GradeDTO$GradeDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/dto/GradeDTO$GradeDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/GradeDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/dto/GradeDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/GroupDTO$GroupDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/dto/GroupDTO$GroupDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/GroupDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/dto/GroupDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/MajorDTO$MajorDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/dto/MajorDTO$MajorDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/MajorDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/dto/MajorDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/PersonDTO$PersonDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/dto/PersonDTO$PersonDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/PersonDTO$PersonDTOBuilderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/dto/PersonDTO$PersonDTOBuilderImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/PersonDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/dto/PersonDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/RegisterDTO$RegisterDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/dto/RegisterDTO$RegisterDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/RegisterDTO$RegisterDTOBuilderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/dto/RegisterDTO$RegisterDTOBuilderImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/RegisterDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/dto/RegisterDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/StudentDTO$StudentDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/dto/StudentDTO$StudentDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/StudentDTO$StudentDTOBuilderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/dto/StudentDTO$StudentDTOBuilderImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/StudentDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/dto/StudentDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/StudentRequestDTO$StudentRequestDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/StudentRequestDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/StudentResponseDTO$StudentResponseDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/StudentResponseDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/SubjectDTO$SubjectDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/dto/SubjectDTO$SubjectDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/SubjectDTO$SubjectDTOBuilderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/dto/SubjectDTO$SubjectDTOBuilderImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/SubjectDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/dto/SubjectDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/TeacherDTO$TeacherDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/dto/TeacherDTO$TeacherDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/TeacherDTO$TeacherDTOBuilderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/dto/TeacherDTO$TeacherDTOBuilderImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/dto/TeacherDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/dto/TeacherDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/ClassRoom$ClassRoomBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/ClassRoom$ClassRoomBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/ClassRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/ClassRoom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Grade$GradeBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/Grade$GradeBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Grade$GradeBuilderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/Grade$GradeBuilderImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Grade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/Grade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Group$GroupBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/Group$GroupBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Group$GroupBuilderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/Group$GroupBuilderImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/Group.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Major$MajorBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/Major$MajorBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Major.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/Major.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Person$PersonBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/Person$PersonBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Register$RegisterBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/Register$RegisterBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Register$RegisterBuilderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/Register$RegisterBuilderImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/RegisterOfMajor$RegisterOfMajorBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/RegisterOfMajor$RegisterOfMajorBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/RegisterOfMajor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/RegisterOfMajor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Role$RoleBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/Role$RoleBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/SchoolYear$SchoolYearBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/SchoolYear$SchoolYearBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/SchoolYear.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/SchoolYear.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Semester$SemesterBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/Semester$SemesterBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Semester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/Semester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Student$StudentBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/Student$StudentBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Student$StudentBuilderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/Student$StudentBuilderImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/StudentRequest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/StudentRequest$StudentRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/StudentRequest$StudentRequestBuilderImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/StudentRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/StudentResponse$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/StudentResponse$StudentResponseBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/StudentResponse$StudentResponseBuilderImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/StudentResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Subject$SubjectBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/Subject$SubjectBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Teacher$TeacherBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/Teacher$TeacherBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Teacher$TeacherBuilderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/Teacher$TeacherBuilderImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/Teacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/repository/RegisterOfMajorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/repository/RegisterOfMajorRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/repository/RegisterRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/repository/RegisterRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/repository/StudentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/repository/StudentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/repository/StudentRequestRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/repository/StudentResponseRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/repository/SubjectRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/repository/SubjectRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/repository/TeacherRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/repository/TeacherRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/registerSubject-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/registerSubject-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/registerSubject-1.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/registerSubject-1.0.jar.original" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../news/news/target/" />
@@ -20,7 +212,7 @@
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="false" />
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
@@ -52,15 +244,12 @@
         <item name="dbo: schema" type="3adcb6a6:MssqlImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="manager_uni: database" type="bdf80c8a:MssqlImplModel$Database" />
-        <item name="dbo: schema" type="3adcb6a6:MssqlImplModel$Schema" />
-        <item name="routines" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
     </expand>
     <select />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="ExecutionTargetDialog">
     <checked>
@@ -71,87 +260,103 @@
     <session id="1230294953">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="80" />
+          <entry key="project.closed" value="99" />
           <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="12" />
+          <entry key="project.open.time.1" value="13" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.113" value="1" />
           <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.13" value="2" />
-          <entry key="project.open.time.14" value="5" />
+          <entry key="project.open.time.14" value="6" />
           <entry key="project.open.time.15" value="3" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.17" value="3" />
+          <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.21" value="3" />
-          <entry key="project.open.time.23" value="2" />
+          <entry key="project.open.time.21" value="4" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="3" />
+          <entry key="project.open.time.24" value="3" />
           <entry key="project.open.time.25" value="4" />
-          <entry key="project.open.time.26" value="3" />
+          <entry key="project.open.time.26" value="4" />
           <entry key="project.open.time.27" value="2" />
           <entry key="project.open.time.28" value="4" />
           <entry key="project.open.time.29" value="2" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.32" value="6" />
+          <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.34" value="3" />
           <entry key="project.open.time.35" value="4" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.40" value="2" />
           <entry key="project.open.time.43" value="3" />
-          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="81" />
+          <entry key="project.opened" value="99" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="46" />
-          <entry key="classrooms" value="5" />
+          <entry key="classrooms" value="8" />
           <entry key="course_major_register" value="1" />
           <entry key="course_semester" value="2" />
           <entry key="course_student" value="3" />
-          <entry key="courses" value="3" />
+          <entry key="courses" value="9" />
           <entry key="exchange_subject_student" value="4" />
-          <entry key="grades" value="2" />
-          <entry key="groups" value="7" />
-          <entry key="java" value="1137" />
+          <entry key="grades" value="9" />
+          <entry key="groups" value="15" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="1780" />
           <entry key="js" value="65" />
           <entry key="json" value="2" />
-          <entry key="majors" value="12" />
-          <entry key="properties" value="24" />
-          <entry key="register" value="28" />
-          <entry key="register_of_major" value="6" />
-          <entry key="register_of_major_subject" value="8" />
+          <entry key="majors" value="27" />
+          <entry key="person_role" value="12" />
+          <entry key="persons" value="15" />
+          <entry key="properties" value="36" />
+          <entry key="register" value="50" />
+          <entry key="register_exchange_student" value="8" />
+          <entry key="register_of_major" value="30" />
+          <entry key="register_of_major_subject" value="24" />
           <entry key="registerhistory" value="8" />
           <entry key="registerstatusupdateafterexchangesubject" value="10" />
-          <entry key="roles" value="13" />
-          <entry key="schoolyear" value="2" />
-          <entry key="schoolyear_course" value="2" />
-          <entry key="schoolyear_semester" value="2" />
-          <entry key="schoolyear_student" value="1" />
-          <entry key="semester" value="7" />
-          <entry key="sql" value="144" />
-          <entry key="student_classroom" value="4" />
+          <entry key="roles" value="31" />
+          <entry key="schoolyear" value="11" />
+          <entry key="schoolyear_course" value="11" />
+          <entry key="schoolyear_semester" value="11" />
+          <entry key="schoolyear_student" value="8" />
+          <entry key="semester" value="11" />
+          <entry key="semester_of_year" value="2" />
+          <entry key="sql" value="150" />
+          <entry key="student_classroom" value="8" />
+          <entry key="student_exchange_register" value="8" />
           <entry key="student_exchange_subject" value="7" />
-          <entry key="student_request" value="30" />
+          <entry key="student_request" value="34" />
+          <entry key="student_request_exchange" value="7" />
+          <entry key="student_request_exchange_register" value="7" />
           <entry key="student_request_response" value="2" />
-          <entry key="student_response" value="22" />
-          <entry key="student_response_request" value="17" />
+          <entry key="student_request_student_exchange_register" value="7" />
+          <entry key="student_response" value="24" />
+          <entry key="student_response_request" value="18" />
           <entry key="student_subject" value="33" />
           <entry key="student_subject_exchange_info" value="10" />
           <entry key="student_subject_record_view" value="21" />
           <entry key="student_suject_record_info_details_view" value="5" />
-          <entry key="students" value="31" />
+          <entry key="students" value="49" />
           <entry key="subject_exchange" value="44" />
           <entry key="subject_group" value="9" />
-          <entry key="subject_major" value="19" />
+          <entry key="subject_major" value="25" />
           <entry key="subject_major_course" value="5" />
-          <entry key="subject_major_schoolyear" value="3" />
-          <entry key="subjects" value="20" />
-          <entry key="teachers" value="1" />
-          <entry key="user_role" value="7" />
+          <entry key="subject_major_schoolyear" value="12" />
+          <entry key="subjects" value="29" />
+          <entry key="teacher_subject" value="6" />
+          <entry key="teachers" value="11" />
+          <entry key="time_table" value="17" />
+          <entry key="user_role" value="9" />
           <entry key="users" value="3" />
           <entry key="v_selectinfosubjectexchangew" value="2" />
           <entry key="vw_select_info_request_student" value="1" />
@@ -164,36 +369,38 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="46" />
-          <entry key="Database Element" value="439" />
-          <entry key="JAVA" value="1137" />
+          <entry key="Database Element" value="750" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="1780" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="65" />
-          <entry key="Properties" value="24" />
+          <entry key="Properties" value="36" />
           <entry key="SQL" value="99" />
-          <entry key="Scratch" value="45" />
+          <entry key="Scratch" value="51" />
           <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cell" value="487" />
+          <entry key="cell" value="1047" />
           <entry key="dummy" value="45" />
-          <entry key="java" value="44928" />
+          <entry key="java" value="66040" />
           <entry key="js" value="9343" />
-          <entry key="properties" value="79" />
-          <entry key="sql" value="16464" />
+          <entry key="properties" value="141" />
+          <entry key="sql" value="16959" />
+          <entry key="txt" value="9" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="44920" />
+          <entry key="JAVA" value="66024" />
           <entry key="JavaScript" value="9343" />
-          <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Properties" value="79" />
-          <entry key="SQL" value="3643" />
-          <entry key="Scratch" value="13314" />
-          <entry key="Spring Data QL" value="2" />
+          <entry key="PLAIN_TEXT" value="54" />
+          <entry key="Properties" value="141" />
+          <entry key="SQL" value="3646" />
+          <entry key="Scratch" value="14369" />
+          <entry key="Spring Data QL" value="7" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
@@ -202,79 +409,99 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/SchoolYearConverter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/api/subject/exchange/StudentRequestExchangeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="32" column="23" selection-start-line="32" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/register_of_major">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/register_of_major_subject">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/api/SubjectController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/api/CourseController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="148">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1299#1300#0" expanded="true" />
+                <element signature="e#1350#1351#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/api/RegisterOfMajorController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentRequestExchangeService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="102">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
+              <folding>
+                <element signature="e#1722#1723#0" expanded="true" />
+                <element signature="e#1749#1750#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/TokenProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/StudentRequestExchangeRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/StudentRequestExchangeConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/api/GradeController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/StudentExchangeRegisterConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="138">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dto/SchoolYearDTO.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dto/StudentRequestExchangeDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="166">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/RegisterConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/SubjectConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/PersonConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -286,41 +513,43 @@
       <list>
         <option value="JavaScript File" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>WebAuth</find>
-      <find>getAllRe</find>
-      <find>register</find>
-      <find>code</find>
-      <find>major</find>
-      <find>StudentService</find>
-      <find>group</find>
-      <find>student</find>
-      <find>StudentRequ</find>
-      <find>StudentRequest</find>
-      <find>/api/student/subject/</find>
-      <find>SubjectSelect</find>
-      <find>console.log</find>
-      <find>subjectViewExchange</find>
-      <find>RegisterSubjectContro</find>
-      <find>StudentResponseCon</find>
-      <find>GenericSearch</find>
-      <find>public class StudentRequest</find>
-      <find>PUBLIC CLASS StudentResponse</find>
-      <find>public class StudentRequestSer</find>
-      <find>StudentResponseService</find>
-      <find>StudentResponseConver</find>
-      <find>StudentRequestDto</find>
-      <find>StudentRequestConverter</find>
-      <find>Exchange</find>
-      <find>CourseConverter</find>
-      <find>GenericSear</find>
-      <find>SchoolYearService</find>
+      <find>public class Clas</find>
+      <find>RoomController</find>
+      <find>RoomService</find>
+      <find>public class ClassR</find>
+      <find>ClassRoomD</find>
+      <find>ClassRoomDto</find>
+      <find>public class TimeTableD</find>
+      <find>public class TimetableConve</find>
+      <find>public class TimeTableDt</find>
+      <find>public class ClassRoomd</find>
+      <find>Public class classRoomD</find>
+      <find>public class GroupDt</find>
+      <find>public class Gener</find>
+      <find>TimeTableService</find>
+      <find>public class ClassRoom</find>
+      <find>public class Class</find>
+      <find>public class ClassRoo</find>
+      <find>public class RoomSer</find>
+      <find>public class TimeTableCo</find>
+      <find>public class TimeT</find>
+      <find>public TimeTableS</find>
+      <find>public class TimeTable</find>
+      <find>findPersonBy</find>
+      <find>person</find>
+      <find>public class ReGISTERS</find>
+      <find>public class SubjectConver</find>
+      <find>public class RegisterOfMajorCon</find>
+      <find>public class StudentExchangeRegister</find>
+      <find>p</find>
+      <find>public class</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -330,62 +559,62 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../react-frontend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="/651bed1f/1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/routine/usp_updateaction.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/StudentRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/StudentResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentResponseService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/dto/StudentResponseDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/converter/imp/StudentResponseConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/dto/StudentRequestDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/converter/imp/StudentRequestConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/Register.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/Service/imp/RegisterSubjectService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/dto/RegisterDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentRequestService.java" />
-        <option value="$PROJECT_DIR$/../react-frontend/src/components/ListStudentComponent.js" />
-        <option value="$PROJECT_DIR$/../react-frontend/src/components/RegisterSubjectComponent.js" />
-        <option value="$PROJECT_DIR$/../react-frontend/src/components/ExchangeSubject.js" />
-        <option value="$PROJECT_DIR$/../react-frontend/src/components/ListSubjectComponent.js" />
-        <option value="$PROJECT_DIR$/../react-frontend/src/components/ListRequestExchangeSubject.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/api/MajorController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/Application.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/Subject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/SemesterEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/Semester.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/Service/imp/SemesterService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/api/SemesterController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/CourseRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/dto/CourseDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/Service/imp/CourseService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/converter/imp/CourseConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/RegisterOfMajorRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/RegisterOfMajorController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/config/TokenProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/config/WebSercurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/Service/imp/TimeTableService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/InfoSubjectDetailView.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/entity/Semester.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/SemesterRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/dto/RegisterOfMajorDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/RegisterOfMajor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/Major.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/StudentRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/Course.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/dto/SchoolYearDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/Service/imp/GenericSearchBy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/SchoolYear.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/Service/imp/SchoolYearService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/converter/imp/RegisterConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/converter/imp/SemesterConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/dto/SemesterDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/dto/SemesterOfYearDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/converter/imp/SemesterOfYearConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/converter/imp/SchoolYearConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/api/CourseController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/converter/imp/RegisterOfMajorConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/Service/imp/RegisterOfMajorService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/SemesterOfYearRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/Teacher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/StudentRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/converter/imp/TimeTableConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/api/RegisterController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/SemesterOfYear.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/TimeTable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/Subject.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/Service/imp/PersonService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/Service/imp/GenericSearchBy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/converter/imp/SubjectConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/converter/imp/TeacherConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/converter/imp/PersonConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/Service/imp/RegisterService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/SchoolYear.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/RegisterOfMajor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/api/RegisterOfMajorController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/Service/imp/RegisterOfMajorService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/converter/imp/RegisterOfMajorConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/dto/StudentExchangeRegisterDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/RegisterOfMajorRepository.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1d0a5c32-1265-4827-b668-94dc821084cf/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/api/subject/exchange/StudentExchangeRegisterController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/StudentExchangeRegisterRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/RegisterRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/Service/IRequestService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentExchangeRegisterService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/SemesterRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/SubjectRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/TimeTableRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/StudentRequestExchange.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/entity/Register.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/dto/RegisterDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/converter/imp/RegisterConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/converter/imp/StudentRequestExchangeConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/repository/StudentRequestExchangeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentRequestExchangeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/api/subject/exchange/StudentRequestExchangeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/dto/StudentRequestExchangeDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/converter/imp/StudentExchangeRegisterConverter.java" />
       </list>
     </option>
   </component>
@@ -424,7 +653,7 @@
     <option name="width" value="1750" />
     <option name="height" value="955" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
@@ -432,7 +661,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -445,10 +673,113 @@
               <item name="registerSubject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="registerSubject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="registerSubject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="registerSubject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="registerSubject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="registerSubject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="registerSubject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="registerSubject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="registerSubject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="registerSubject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="registerSubject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="exchange" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="registerSubject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="registerSubject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="registerSubject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="registerSubject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="converter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="registerSubject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="registerSubject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="converter" type="462c0819:PsiDirectoryNode" />
+              <item name="imp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="registerSubject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="registerSubject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="registerSubject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="registerSubject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="registerSubject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="registerSubject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="registerSubject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="registerSubject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -463,7 +794,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;dbSrc:///651bed1f/1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/routine/usp_register_update.sql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1697727270852" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1698906335797" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-frontend" />
@@ -494,6 +825,23 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="All Features in: registerSubject" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="BackEndManagerUniversity" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
+      <option name="SUGGESTED_NAME" value="All Features in: registerSubject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="react-frontend" />
       <option name="VM_PARAMETERS" />
@@ -564,9 +912,11 @@
     <list>
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.NewsApplication" />
+      <item itemvalue="Cucumber java.All Features in: registerSubject" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.All Features in: registerSubject" />
         <item itemvalue="Spring Boot.NewsApplication" />
       </list>
     </recent_temporary>
@@ -661,80 +1011,107 @@
       <workItem from="1697515868544" duration="212000" />
       <workItem from="1697624950250" duration="666000" />
       <workItem from="1697627554891" duration="4470000" />
-      <workItem from="1697710077367" duration="5261000" />
+      <workItem from="1697710077367" duration="6006000" />
+      <workItem from="1697779763200" duration="1828000" />
+      <workItem from="1697967314064" duration="7396000" />
+      <workItem from="1698051988099" duration="6748000" />
+      <workItem from="1698126563211" duration="1403000" />
+      <workItem from="1698227346176" duration="5182000" />
+      <workItem from="1698305679998" duration="6460000" />
+      <workItem from="1698376333342" duration="3248000" />
+      <workItem from="1698386366010" duration="368000" />
+      <workItem from="1698414998688" duration="4824000" />
+      <workItem from="1698457824365" duration="3741000" />
+      <workItem from="1698461708476" duration="4672000" />
+      <workItem from="1698552457735" duration="5005000" />
+      <workItem from="1698566935609" duration="3929000" />
+      <workItem from="1698651113626" duration="10208000" />
+      <workItem from="1698723277996" duration="2000" />
+      <workItem from="1698731073095" duration="4946000" />
+      <workItem from="1698751739995" duration="4000" />
+      <workItem from="1698901657731" duration="3784000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255613000" />
+    <option name="totallyTimeSpent" value="330106000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="830" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33647376" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8556701" visible="true" weight="0.2664872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.14432989" side_tool="true" weight="0.25572005" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32892805" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932706" weight="0.3010279" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.13656388" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932706" weight="0.45668134" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.61967695" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.32892805" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067294" side_tool="true" weight="0.3010279" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32892805" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.21292217" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067294" side_tool="true" weight="0.43970588" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32892805" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.50067294" visible="true" weight="0.5535976" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49932706" weight="0.4126285" />
       <window_info anchor="bottom" id="Database Changes" order="11" weight="0.32892805" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49932706" weight="0.47723934" />
-      <window_info anchor="bottom" id="Database Console" order="14" sideWeight="0.49932706" weight="0.17914832" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49798116" weight="0.0014684288" />
+      <window_info anchor="bottom" id="Database Console" order="14" sideWeight="0.49932706" weight="0.34508076" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966353" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.2577389" />
+      <window_info anchor="right" id="Database" order="5" weight="0.27119786" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.15275909" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32974428" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2873486" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8556701" visible="true" weight="0.25975773" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.14432989" side_tool="true" weight="0.25572005" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32892805" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932706" weight="0.0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.13656388" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932706" visible="true" weight="0.32892805" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2555066" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.32892805" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067294" side_tool="true" weight="0.3010279" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32892805" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.21292217" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067294" side_tool="true" weight="0.43970588" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32892805" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.50067294" weight="0.24375919" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49932706" weight="0.4132353" />
       <window_info anchor="bottom" id="Database Changes" order="11" weight="0.32892805" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49932706" weight="0.47723934" />
-      <window_info anchor="bottom" id="Database Console" order="14" sideWeight="0.49932706" weight="0.17914832" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49798116" weight="0.0014684288" />
+      <window_info anchor="bottom" id="Database Console" order="14" sideWeight="0.49932706" weight="0.34508076" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966353" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.21265142" />
+      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.20928667" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.15275909" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -787,12 +1164,6 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/CustomUserDetailsService.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/config/TokenProvider.java</url>
           <line>23</line>
           <properties />
@@ -800,13 +1171,13 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/config/JwtAuthenticationFilter.java</url>
-          <line>30</line>
+          <line>31</line>
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/config/JwtAuthenticationFilter.java</url>
-          <line>49</line>
+          <line>50</line>
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
@@ -829,76 +1200,154 @@
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/config/TokenProvider.java</url>
-          <line>70</line>
-          <properties />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/StudentConverter.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentService.java</url>
-          <line>63</line>
-          <properties />
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/api/StudentController.java</url>
           <line>26</line>
           <properties />
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/RegisterSubjectService.java</url>
-          <line>75</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/RegisterService.java</url>
+          <line>70</line>
           <properties />
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/SubjectService.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/api/subject/exchange/StudentResponseController.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentResponseService.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentService.java</url>
-          <line>81</line>
+          <line>72</line>
           <properties />
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/api/subject/exchange/StudentRequestController.java</url>
-          <line>38</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/api/subject/exchange/StudentRequestExchangeController.java</url>
+          <line>35</line>
           <properties />
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentRequestService.java</url>
-          <line>58</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/MajorService.java</url>
+          <line>26</line>
           <properties />
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentResponseService.java</url>
-          <line>53</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/MajorConverter.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/SubjectService.java</url>
+          <line>47</line>
           <properties />
           <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/api/TimeTableController.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/TimeTableService.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentService.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/StudentConverter.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/PersonService.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/PersonConverter.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/PersonConverter.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/TeacherService.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/config/TokenProvider.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/api/UserAPI.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/SubjectConverter.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/api/RegisterController.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/RegisterService.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/RegisterConverter.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentExchangeRegisterService.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/StudentExchangeRegisterConverter.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/api/subject/exchange/StudentRequestExchangeController.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentRequestExchangeService.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="112" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -911,6 +1360,8 @@
         <watch expression="chain" />
         <watch expression="this" />
         <watch expression="subject.students" />
+        <watch expression="authorities" />
+        <watch expression="claims" />
       </configuration>
     </watches-manager>
   </component>
@@ -919,293 +1370,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/student_response_request">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/student_response">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/entity/Register.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/majors">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/subject_major_course" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/entity/Major.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/StudentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/SubjectService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/entity/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.23.RELEASE/spring-data-commons-1.13.23.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/GenericSearchBy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="145" column="48" selection-start-line="145" selection-start-column="48" selection-end-line="145" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/registerhistory" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/RegisterOfMajorRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/CourseRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/students">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/entity/RegisterOfMajor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="31" column="40" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/SchoolYearService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentRequestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/RoomService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/RegisterSubjectService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dto/RegisterOfMajorDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/CourseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dto/CourseDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/schoolyear_student">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-          <column-attributes>
-            <column name="%%physloc%%" enabled="false" />
-          </column-attributes>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/entity/SchoolYear.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/subject_major">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-          <column-attributes>
-            <column name="%%physloc%%" enabled="false" />
-          </column-attributes>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/api/RoomController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/api/SchoolYearController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/RegisterConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/MajorConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-616">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/SemesterConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dto/SemesterDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/schoolyear">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/schoolyear_semester">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-          <column-attributes>
-            <column name="%%physloc%%" enabled="false" />
-          </column-attributes>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/roles">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/semester">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/schoolyear_course">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-          <column-attributes>
-            <column name="%%physloc%%" enabled="false" />
-          </column-attributes>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/GroupConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/GradeConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/CourseConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/SchoolYearConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="32" column="23" selection-start-line="32" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/register_of_major">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1217,76 +1381,378 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+          <column-attributes>
+            <column name="%%physloc%%" enabled="false" />
+          </column-attributes>
         </state>
       </provider>
     </entry>
-    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/subject_major_schoolyear">
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/register_of_major">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dto/SchoolYearDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/register_of_major">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/api/SubjectController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/register_of_major">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/api/CourseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/register_of_major">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/RegisterOfMajorConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="37" column="61" lean-forward="true" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/register_of_major">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/RegisterOfMajorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="63" column="40" lean-forward="true" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
-          <folding>
-            <element signature="e#1983#1984#0" expanded="true" />
-            <element signature="e#2010#2011#0" expanded="true" />
-            <element signature="e#2074#2075#0" expanded="true" />
-            <element signature="e#2101#2102#0" expanded="true" />
-            <element signature="e#2177#2178#0" expanded="true" />
-            <element signature="e#2204#2205#0" expanded="true" />
-          </folding>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/register">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/api/RegisterOfMajorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/register">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/api/GradeController.java">
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/register">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/register">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.25.RELEASE/spring-web-4.3.25.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="211" selection-start-line="211" selection-end-line="211" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/register_exchange_student">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/register_exchange_student">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/register_exchange_student">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="%%physloc%%" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/register_exchange_student">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="%%physloc%%" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/register_exchange_student">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="%%physloc%%" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/register_exchange_student">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="%%physloc%%" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Service/GenericService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Service/IRequestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentExchangeRegisterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-796">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/student_request_student_exchange_register">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="%%physloc%%" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/student_request_exchange_register">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="%%physloc%%" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/student_request_exchange">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/api/subject/exchange/StudentExchangeRegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/RegisterRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/JPAAuditting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/RoleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/SchoolYearRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1d0a5c32-1265-4827-b668-94dc821084cf/database/manager_uni/schema/dbo/table/student_exchange_register">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/RoomRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/SemesterRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/StudentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/StudentExchangeRegisterRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/SubjectRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="49" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/TeacherRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/TimeTableRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/entity/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dto/RegisterDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/entity/StudentRequestExchange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dto/StudentExchangeRegisterDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/repository/StudentRequestExchangeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dto/StudentRequestExchangeDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/StudentRequestExchangeConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/config/TokenProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/api/subject/exchange/StudentRequestExchangeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#1299#1300#0" expanded="true" />
+            <element signature="e#1350#1351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Service/imp/StudentRequestExchangeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="e#1722#1723#0" expanded="true" />
+            <element signature="e#1749#1750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/RegisterConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/SubjectConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/PersonConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/converter/imp/StudentExchangeRegisterConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>

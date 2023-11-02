@@ -6,7 +6,9 @@ import lombok.experimental.SuperBuilder;
 
 import javax.persistence.*;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 @Table(name = "groups")
@@ -17,17 +19,15 @@ public class Group extends Base{
     @Column(unique = true)
     private String code;
 
-    @ManyToMany(mappedBy = "groups")
-    private List<Subject> subjects = new ArrayList<>();
 
-    @OneToMany(mappedBy = "groupRequest")
-    private List<StudentRequest> groupRequests = new ArrayList<>();
-    @OneToMany(mappedBy = "groupResponse")
-    private List<StudentResponse> groupResponses = new ArrayList<>();
 
 
     @OneToMany(mappedBy = "group")
-    private List<Register> registers = new ArrayList<>();
+    private Set<TimeTable> timeTables = new HashSet<>();
+
+
+//    @OneToMany(mappedBy = "group")
+//    private List<Register> registers = new ArrayList<>();
 
     @Override
     public boolean equals(Object obj) {

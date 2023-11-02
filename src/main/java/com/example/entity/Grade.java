@@ -5,7 +5,6 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotNull;
 
 @Entity
 @Table(name = "Grades")
@@ -13,28 +12,22 @@ import javax.validation.constraints.NotNull;
 @Getter
 @NoArgsConstructor
 public class Grade extends Base{
-    @Column(name = "grade_id", columnDefinition = "varchar(30)", unique = true)
-    @NotNull
-    private String gradeCode;
-    @ManyToOne
-    @JoinColumn(name = "subject_id")
-    @NotNull
-    private Subject subject;
-    @ManyToOne
-    @JoinColumn(name = "student_id")
-    @NotNull
-    private Student student;
-    @Column
+
+    @OneToOne
+    @JoinColumn(name = "register_id")
+    private Register register;
+
+    @Column(columnDefinition = "float(2)")
     private Float attend;
-    @Column
+    @Column(columnDefinition = "float(2)")
     private Float midterm;
-    @Column(name = "endofterm")
+    @Column(name = "endofterm", columnDefinition = "float(2)")
     private Float endOfTerm;
-    @Column
+    @Column(columnDefinition = "float(2)")
     private Float test;
-    @Column
+    @Column(columnDefinition = "float(2)")
     private Float practice;
-    @Column
+    @Column(columnDefinition = "float(2)")
     private Float gpa;
 
 

@@ -8,13 +8,16 @@ import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.sql.Date;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
-@MappedSuperclass
+@Entity
+@Table(name = "persons")
 @SuperBuilder(toBuilder = true)
 @Getter
 @NoArgsConstructor
-public abstract class Person extends Base{
+public class Person extends Base{
     @Column(name = "fullname" , columnDefinition = "NVARCHAR(80)")
     private String fullName;
     @Column(name = "birthofdate")
@@ -33,5 +36,18 @@ public abstract class Person extends Base{
     private String username;
     @Column(columnDefinition = "varchar(100)")
     private String password;
+
+    @ManyToMany
+    @JoinTable(name = "person_role",
+        joinColumns = @JoinColumn(name = "person_id"),
+            inverseJoinColumns = @JoinColumn(name = "role_id")
+    )
+    private Set<Role> roles = new HashSet<>();
+
+    @OneToOne(mappedBy = "person")
+    private Student student;
+
+    @OneToOne(mappedBy = "person", cascade = CascadeType.ALL)
+    private Teacher teacher;
 
 }

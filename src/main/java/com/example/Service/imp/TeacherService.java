@@ -1,9 +1,10 @@
 package com.example.Service.imp;
 
 import com.example.Service.GenericService;
+import com.example.converter.imp.PersonConverter;
 import com.example.converter.imp.TeacherConverter;
 import com.example.dto.TeacherDTO;
-import com.example.entity.Major;
+import com.example.entity.Person;
 import com.example.entity.Subject;
 import com.example.entity.Teacher;
 import com.example.exception.ResourceNotFoundException;
@@ -14,51 +15,50 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 @Service("serviceOfTeacher")
 public class TeacherService implements GenericService<TeacherDTO> {
 
     private TeacherConverter converter;
     private TeacherRepository teacherRepository;
-    private SubjectRepository subjectRepository;
-    private MajorRepository majorRepository;
-
+    private PersonConverter personConverter;
+    private PersonService personService;
+    private GenericSearchBy searchBy;
     @Autowired
     public TeacherService(TeacherConverter converter,
                           TeacherRepository teacherRepository,
-                          SubjectRepository subjectRepository,
-                          MajorRepository majorRepository) {
+                          PersonConverter personConverter,
+                          PersonService personService,
+                          GenericSearchBy searchBy) {
         this.converter = converter;
         this.teacherRepository = teacherRepository;
-        this.subjectRepository = subjectRepository;
-        this.majorRepository = majorRepository;
+        this.personConverter = personConverter;
+        this.personService = personService;
+        this.searchBy = searchBy;
     }
 
     @Override
-    public TeacherDTO save(TeacherDTO object) throws ResourceNotFoundException {
-        Teacher teacher = new Teacher();
-        Subject subject = subjectRepository.
-                findOneById(object.getSubjectId())
-                .orElseThrow(
-                        () -> new ResourceNotFoundException
-                                ("Không tìm thấy Sujbect có id: "
-                                        + object.getSubjectId())
-                );
-        Major major = majorRepository.
-                findOneByMajorCode(object.getMajorCode())
-                .orElseThrow(() -> new ResourceNotFoundException
-                        ("Không tìm thấy Major có code: " +
-                                object.getMajorCode()));
-        if (object.getId() != null) {
-            Teacher oldTeacher = teacherRepository.findOne(object.getId());
+    public TeacherDTO save(TeacherDTO object) {
+        Person person = personConverter.toEntity(personService.save(object.getPerson()));
+        List<Subject> subjects = object.getSubjectIds()
+                .stream()
+                .map((id) -> searchBy.findBySubjectId(id))
+                .collect(Collectors.toList());
+        Teacher teacher = null;
+        if(object.getId() != null) {
+            Teacher oldTeacher = searchBy.findTeacherById(object.getId());
             teacher = converter.toEntity(oldTeacher, object);
         } else {
             teacher = converter.toEntity(object);
         }
-        return converter.toDto(teacherRepository.save(teacher
-                .toBuilder().subject(subject)
-                .major(major).build()));
-
+        teacher = teacher
+                .toBuilder()
+                .person(person)
+                .subjects(subjects)
+                .build();
+        return teacher != null ? converter.toDto(teacherRepository.save(teacher)) : null;
     }
 
     @Override

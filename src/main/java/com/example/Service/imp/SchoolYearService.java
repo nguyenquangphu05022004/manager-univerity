@@ -8,7 +8,6 @@ import com.example.entity.SchoolYear;
 import com.example.entity.Semester;
 import com.example.entity.Student;
 import com.example.repository.SchoolYearRepository;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -31,12 +30,10 @@ public class SchoolYearService implements GenericService<SchoolYearDTO> {
     @Override
     public SchoolYearDTO save(SchoolYearDTO object) {
         List<Student> students = searchBy.findAllStudentByCourseId(object.getCourseId());
-        List<Semester> semesters = searchBy.findAllSemester();
         Course course = searchBy.findCourseById(object.getCourseId());
         Set<Course> courses = new HashSet<>(); courses.add(course);
         SchoolYear schoolYear = SchoolYear.builder()
                 .schoolYear(object.getSchoolYear())
-                .semesters(semesters)
                 .students(students)
                 .courses(courses.stream().map((c) -> c).collect(Collectors.toList()))
                 .build();

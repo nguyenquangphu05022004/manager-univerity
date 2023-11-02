@@ -15,8 +15,6 @@ import java.util.Set;
 @Component("majorConverter")
 public class MajorConverter implements GenericConverter<Major, MajorDTO> {
 
-    @Autowired
-    private SubjectConverter subjectConverter;
 
     @Override
     public Major toEntity(MajorDTO dto) {

@@ -21,29 +21,18 @@ public class RoomService implements GenericService<ClassRoomDTO> {
     @Autowired
     private ClassRoomConverter classRoomConverter;
     @Autowired
-    private SubjectRepository subjectRepository;
+    private GenericSearchBy searchBy;
     @Override
     public ClassRoomDTO save(ClassRoomDTO object) {
         ClassRoom classRoom = new ClassRoom();
-        Subject subject = subjectRepository.
-                findOneById(object.getSubjectId())
-                .orElseThrow(
-                        () -> new ResourceNotFoundException
-                                ("Không tìm thấy Sujbect có id: " + object.getSubjectId())
-                );
         if(object.getId() != null) {
-            ClassRoom oldRoom = roomRepository.
-                    findOneById(object.getSubjectId())
-                    .orElseThrow(
-                            () -> new ResourceNotFoundException
-                                    ("Không tìm thấy Sujbect có id: " + object.getId())
-                    );
+            ClassRoom oldRoom = searchBy.findClassRoomById(object.getId());
             classRoom = classRoomConverter.toEntity(oldRoom, object);
         } else {
             classRoom = classRoomConverter.toEntity(object);
         }
-        classRoom.toBuilder()
-            .subject(subject);
+//        classRoom.toBuilder()
+//            .subject(subject);
         return classRoomConverter.toDto(roomRepository.save(classRoom));
     }
 

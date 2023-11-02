@@ -59,17 +59,22 @@ public class WebSercurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http.cors().and().csrf().disable()
                 .authorizeRequests()
-                .antMatchers("/login").permitAll()
-//                .antMatchers(HttpMethod.POST, "/api/subjects").hasAnyRole("ADMIN")
-                .anyRequest().authenticated()
+                .antMatchers("/login")
+                .permitAll()
+                .antMatchers(HttpMethod.GET,"/api/time/table").hasAnyRole("ADMIN", "TEACHER")
+                .antMatchers(HttpMethod.POST, "/api/time/table").hasAnyRole("ADMIN", "TEACHER")
+                .anyRequest()
+                .authenticated()
                 .and()
                 .exceptionHandling()
                 .authenticationEntryPoint(authenticationEntryPoint)
-                .and().sessionManagement()
+                .and()
+                .sessionManagement()
                 .sessionCreationPolicy(SessionCreationPolicy.STATELESS);
         http.addFilterBefore(authenticationFilter(),
                 UsernamePasswordAuthenticationFilter.class);
     }
+
     @Bean
     public BCryptPasswordEncoder encoder() {
         return new BCryptPasswordEncoder();

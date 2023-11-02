@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Component("registerConverter")
 public class RegisterConverter implements GenericConverter<Register, RegisterDTO> {
@@ -16,8 +17,7 @@ public class RegisterConverter implements GenericConverter<Register, RegisterDTO
     @Autowired
     private SubjectConverter subjectConverter;
     @Autowired
-    private GroupConverter groupConverter;
-
+    private RegisterOfMajorConverter registerOfMajorConverter;
     @Override
     public Register toEntity(RegisterDTO dto) {
         return null;
@@ -27,10 +27,10 @@ public class RegisterConverter implements GenericConverter<Register, RegisterDTO
     public RegisterDTO toDto(Register entity) {
         return RegisterDTO.builder()
                 .id(entity.getId())
-                .groupDTO(groupConverter.toDto(entity.getGroup()))
-                .subjectDTO(subjectConverter.toDto(entity.getSubject()))
-                .studentDTO(studentConverter.toDto(entity.getStudent()))
+                .studentId(entity.getStudent().getId())
                 .status(entity.getStatus())
+                .subjectDTO(subjectConverter.toDto(entity.getSubject()))
+                .registerOfMajorId(entity.getRegisterOfMajor().getId())
                 .build();
     }
 
@@ -46,10 +46,11 @@ public class RegisterConverter implements GenericConverter<Register, RegisterDTO
 
     @Override
     public List<RegisterDTO> dtoList(List<Register> entityList) {
-        List<RegisterDTO> list = new ArrayList<>();
-        entityList.forEach((register -> {
-            list.add(toDto(register));
-        }));
-        return list;
+        return entityList
+                .stream()
+                .map((e) -> {
+                    return toDto(e);
+                })
+                .collect(Collectors.toList());
     }
 }

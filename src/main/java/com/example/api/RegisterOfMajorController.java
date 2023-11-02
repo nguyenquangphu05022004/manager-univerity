@@ -13,12 +13,15 @@ public class RegisterOfMajorController {
 
     @Autowired
     private RegisterOfMajorService registerOfMajorService;
+
     @PostMapping("/api/subject/major")
     public RegisterOfMajorDTO registerSubjectForMajor(@RequestBody RegisterOfMajorDTO registerOfMajorDTO) {
         return registerOfMajorService.save(registerOfMajorDTO);
     }
-    @GetMapping("/api/subject/major/{majorId}")
-    public List<RegisterOfMajorDTO> getListByMajorId(@PathVariable("majorId") Long majorId) {
-       return registerOfMajorService.getListByMajorId(majorId);
+
+    @GetMapping("/api/subject/major/{registerOfMajorId}")
+    public RegisterOfMajorDTO getRegisterOfMajorById(
+            @PathVariable Long registerOfMajorId) {
+        return registerOfMajorService.getById(registerOfMajorId);
     }
 }

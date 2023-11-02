@@ -3,9 +3,10 @@ package com.example.entity;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "register")
@@ -16,13 +17,21 @@ public class Register extends Base{
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "student_id")
     private Student student;
-    @ManyToOne(cascade = CascadeType.ALL)
+
+    @ManyToOne
     @JoinColumn(name = "subject_id")
     private Subject subject;
-    @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "group_id")
-    private Group group;
+
+    @ManyToOne
+    @JoinColumn(name = "registerOfMajorId")
+    private RegisterOfMajor registerOfMajor;
+
+    @OneToOne(mappedBy = "register")
+    private Grade grade;
+
     @Column(name = "status")
     private Boolean status;
 
+    @ManyToMany(mappedBy = "registers")
+    private List<StudentExchangeRegister> studentExchangeRegisters = new ArrayList<>();
 }

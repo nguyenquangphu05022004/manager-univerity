@@ -3,6 +3,7 @@ package com.example.converter.imp;
 import com.example.converter.GenericConverter;
 import com.example.dto.GradeDTO;
 import com.example.entity.Grade;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
@@ -11,6 +12,10 @@ import java.util.Set;
 
 @Component
 public class GradeConverter implements GenericConverter<Grade, GradeDTO> {
+
+    @Autowired
+    private RegisterConverter registerConverter;
+
     @Override
     public Grade toEntity(GradeDTO dto) {
         Grade grade = Grade.builder()
@@ -19,7 +24,6 @@ public class GradeConverter implements GenericConverter<Grade, GradeDTO> {
                 .midterm(dto.getMidterm())
                 .practice(dto.getPractice())
                 .test(dto.getTest())
-                .gradeCode(dto.getGradeCode())
                 .gpa(dto.gpa())
                 .build();
         return grade;
@@ -30,14 +34,14 @@ public class GradeConverter implements GenericConverter<Grade, GradeDTO> {
         return GradeDTO.builder()
                 .attend(entity.getAttend()).endOfTerm(entity.getEndOfTerm())
                 .midterm(entity.getMidterm()).practice(entity.getPractice())
-                .test(entity.getTest()).gradeCode(entity.getGradeCode())
+                .test(entity.getTest())
                 .createBy(entity.getCreateBy())
                 .createDate(entity.getCreateDate())
                 .modifiedBy(entity.getModifiedBy())
                 .modifiedDate(entity.getModifiedDate())
-                .id(entity.getId()).studentId(entity.getStudent().getId())
-                .subjectId(entity.getSubject().getId())
-                .gpa(entity.getGpa() / entity.getSubject().getCredit())
+                .registerDTO(registerConverter.toDto(entity.getRegister()))
+                .gpa(entity.getGpa())
+                .id(entity.getId())
                 .build();
     }
 

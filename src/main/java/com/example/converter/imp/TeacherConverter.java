@@ -1,49 +1,45 @@
 package com.example.converter.imp;
 
 import com.example.converter.GenericConverter;
-import com.example.dto.StudentDTO;
+import com.example.dto.SubjectDTO;
 import com.example.dto.TeacherDTO;
-import com.example.entity.Student;
 import com.example.entity.Teacher;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
+import java.util.stream.Collectors;
 
 @Component("teacherConverter")
 public class TeacherConverter implements GenericConverter<Teacher, TeacherDTO> {
+
+    @Autowired
+    private PersonConverter personConverter;
+    @Autowired
+    private SubjectConverter subjectConverter;
     @Override
     public Teacher toEntity(TeacherDTO dto) {
-        return Teacher.builder().address(dto.getAddress())
-                .birthOfDate(dto.getBirthOfDate())
-                .email(dto.getEmail()).fullName(dto.getFullName())
-                .phoneNumber(dto.getPhoneNumber())
-                .username(dto.getUsername()).build();
+        return Teacher
+                .builder()
+                .build();
     }
 
     @Override
     public TeacherDTO toDto(Teacher entity) {
-        return TeacherDTO.builder().id(entity.getId())
-                .address(entity.getAddress())
-                .birthOfDate(entity.getBirthOfDate()).email(entity.getEmail())
-                .fullName(entity.getFullName())
-                .phoneNumber(entity.getPhoneNumber())
-                .majorCode(entity.getMajor().getMajorCode())
-                .majorId(entity.getMajor().getId())
-                .createDate(entity.getCreateDate())
-                .createBy(entity.getCreateBy()).modifiedBy(entity.getModifiedBy())
-                .modifiedDate(entity.getModifiedDate())
-                .username(entity.getUsername()).build();
+        return TeacherDTO
+                .builder()
+                .id(entity.getId())
+                .person(personConverter.toDto(entity.getPerson()))
+                .build();
     }
 
     @Override
     public Teacher toEntity(Teacher entity, TeacherDTO dto) {
-        return entity.toBuilder()
-                .address(dto.getAddress())
-                .birthOfDate(dto.getBirthOfDate())
-                .email(dto.getEmail()).fullName(dto.getFullName())
-                .phoneNumber(dto.getPhoneNumber()).build();
+        return entity
+                .toBuilder()
+                .person(personConverter.toEntity(dto.getPerson()))
+                .build();
     }
 
     @Override
@@ -51,18 +47,10 @@ public class TeacherConverter implements GenericConverter<Teacher, TeacherDTO> {
         return null;
     }
 
-//    @Override
-//    public List<TeacherDTO> dtoList(Set<Teacher> entityList) {
-//        return null;
-//    }
 
     @Override
     public List<TeacherDTO> dtoList(List<Teacher> entityList) {
-        List<TeacherDTO> dtolist = new ArrayList<>();
-        for (Teacher entity : entityList) {
-            dtolist.add(toDto(entity));
-        }
-        return dtolist;
+        return entityList.stream().map(t -> toDto(t)).collect(Collectors.toList());
     }
 
 

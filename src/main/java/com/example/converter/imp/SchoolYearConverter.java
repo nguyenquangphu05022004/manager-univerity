@@ -2,15 +2,12 @@ package com.example.converter.imp;
 
 import com.example.converter.GenericConverter;
 import com.example.dto.SchoolYearDTO;
-
 import com.example.entity.SchoolYear;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 @Component
 public class SchoolYearConverter implements GenericConverter<SchoolYear, SchoolYearDTO> {
     @Autowired
@@ -26,7 +23,6 @@ public class SchoolYearConverter implements GenericConverter<SchoolYear, SchoolY
         SchoolYearDTO schoolYearDTO =  SchoolYearDTO.builder()
                 .schoolYear(entity.getSchoolYear())
                 .id(entity.getId())
-                .semesters(semesterConverter.dtoList(entity.getSemesters()))
                 .courseId(entity.getCourses().get(0).getId())
                 .courseCode(entity.getCourses().get(0).getCode())
                 .build();

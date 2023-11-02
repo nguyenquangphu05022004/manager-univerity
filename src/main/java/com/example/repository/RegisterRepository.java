@@ -11,9 +11,7 @@ import java.util.Optional;
 
 public interface RegisterRepository extends JpaRepository<Register, Long> {
     Optional<Register> findOneById(Long id);
-    Optional<Register> findOneByStudentIdAndSubjectId(Long studentId, Long subjectId);
-    List<Register> findAllByStudentId(Long studentId);
-
+    List<Register> findAllByStudentId(Long id);
     @Transactional
     @Modifying
     @Query(value = "delete from Register r where r.id = ?1")

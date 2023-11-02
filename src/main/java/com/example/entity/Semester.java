@@ -19,8 +19,9 @@ public class Semester extends  Base{
     @Enumerated(EnumType.STRING)
     private SemesterEnum semester;
 
-    @ManyToMany(mappedBy = "semesters")
-    private List<SchoolYear> schoolYears = new ArrayList<>();
+    @ManyToMany(mappedBy = "semester")
+    private List<SemesterOfYear> schoolYears = new ArrayList<>();
+
 
     @OneToMany(mappedBy = "semester")
     private List<RegisterOfMajor> registerOfMajors = new ArrayList<>();

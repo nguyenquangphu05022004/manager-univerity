@@ -49,8 +49,8 @@ public class TokenProvider implements Serializable {
     }
 
     public String generateToken(Authentication authentication) {
-        String authorities = authentication.getAuthorities()
-                .stream().map((authority) -> ((GrantedAuthority) authority).getAuthority())
+        final String authorities = authentication.getAuthorities()
+                .stream().map(GrantedAuthority::getAuthority)
                 .collect(Collectors.joining(","));
         return Jwts.builder()
                 .setSubject(authentication.getName())
@@ -70,9 +70,11 @@ public class TokenProvider implements Serializable {
 
         Collection<? extends GrantedAuthority> authorities
                 = Arrays.stream(claims.get((SystemConstant.AUTHORITIES_KEY)).toString().split(","))
-                .map((author) -> new SimpleGrantedAuthority(author))
+                .map((author) -> {
+                    System.out.println(author);
+                    return new SimpleGrantedAuthority(author);
+                })
                 .collect(Collectors.toList());
-
         return new UsernamePasswordAuthenticationToken(userDetails, "",authorities);
     }
 

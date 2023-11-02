@@ -52,5 +52,18 @@ public class SubjectController {
         return subjectService.getAllByMajorId(majorId);
     }
 
+    @GetMapping("/api/subjects/{majorId}/{schoolYearId}/{courseId}/{semesterId}")
+    public List<SubjectDTO> getSubjectByAbovePath(
+            @PathVariable("majorId") Long majorId,
+            @PathVariable("schoolYearId") Long schoolYear,
+            @PathVariable("courseId") Long courseId,
+            @PathVariable("semesterId") Long semesterId) {
+        return subjectService
+                .getAllByMajorIdAndSchoolYearIdAndCourseIdAndSemesterId
+                (majorId, schoolYear, courseId, semesterId);
+    }
+
 
 }
+
+
