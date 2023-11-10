@@ -43,13 +43,5 @@ public class GroupService implements GenericService<GroupDTO> {
         return groupConverter.dtoList(listGroups);
     }
 
-    @Override
-    public GroupDTO getById(Long id) {
-        return null;
-    }
-
-    @Override
-    public List<GroupDTO> getByCode(String code) {
-        return null;
-    }
+    
 }

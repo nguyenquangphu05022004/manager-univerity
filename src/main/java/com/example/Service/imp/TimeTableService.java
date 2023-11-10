@@ -1,6 +1,7 @@
 package com.example.Service.imp;
 
 import com.example.Service.GenericService;
+import com.example.Service.imp.search.GenericSearchBy;
 import com.example.converter.imp.ClassRoomConverter;
 import com.example.converter.imp.TimeTableConverter;
 import com.example.dto.TimeTableDTO;
@@ -52,26 +53,8 @@ public class TimeTableService implements GenericService<TimeTableDTO> {
 
     @Override
     public List<TimeTableDTO> list() {
-//        List<TimeTable> list = timeTableRepository
-//                .findAllBySubjectFromMajorId(
-//                        searchBy.findStudentByUsername(SecurityContextHolder
-//                                .getContext()
-//                                .getAuthentication()
-//                                .getName())
-//                                .getMajor()
-//                                .getId()
-//                );
-//        return timeTableConverter.dtoList(list);
-        return null;
+        List<TimeTable> list = timeTableRepository.findAll();
+        return timeTableConverter.dtoList(list);
     }
 
-    @Override
-    public TimeTableDTO getById(Long id) {
-        return null;
-    }
-
-    @Override
-    public List<TimeTableDTO> getByCode(String code) {
-        return null;
-    }
 }

@@ -1,25 +1,20 @@
 package com.example.Service.imp;
 
 import com.example.Service.GenericService;
+import com.example.Service.IGenericServiceExpand;
+import com.example.Service.imp.search.GenericSearchBy;
 import com.example.converter.imp.PersonConverter;
 import com.example.converter.imp.StudentConverter;
-import com.example.dto.MyUser;
 import com.example.dto.StudentDTO;
 import com.example.entity.*;
 import com.example.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 @Service("studentOfService")
-public class StudentService implements GenericService<StudentDTO> {
+public class StudentService implements GenericService<StudentDTO>, IGenericServiceExpand<StudentDTO> {
     @Autowired
     private StudentRepository studentRepository;
     @Autowired
@@ -76,16 +71,10 @@ public class StudentService implements GenericService<StudentDTO> {
         // TODO: 8/24/2023
     }
 
+
     @Override
     public StudentDTO getById(Long id) {
-        return null;
+        return converter.toDto(searchBy.findStudentById(id));
     }
-
-    @Override
-    public List<StudentDTO> getByCode(String code) {
-        return null;
-    }
-
-
 }
 

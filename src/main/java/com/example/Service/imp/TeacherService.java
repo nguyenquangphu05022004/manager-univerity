@@ -1,21 +1,18 @@
 package com.example.Service.imp;
 
 import com.example.Service.GenericService;
+import com.example.Service.imp.search.GenericSearchBy;
 import com.example.converter.imp.PersonConverter;
 import com.example.converter.imp.TeacherConverter;
 import com.example.dto.TeacherDTO;
 import com.example.entity.Person;
 import com.example.entity.Subject;
 import com.example.entity.Teacher;
-import com.example.exception.ResourceNotFoundException;
-import com.example.repository.MajorRepository;
-import com.example.repository.SubjectRepository;
 import com.example.repository.TeacherRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Set;
 import java.util.stream.Collectors;
 
 @Service("serviceOfTeacher")
@@ -75,13 +72,5 @@ public class TeacherService implements GenericService<TeacherDTO> {
         return null;
     }
 
-    @Override
-    public TeacherDTO getById(Long id) {
-        return null;
-    }
-
-    @Override
-    public List<TeacherDTO> getByCode(String code) {
-        return null;
-    }
+   
 }

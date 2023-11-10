@@ -1,6 +1,7 @@
 package com.example.api;
 
 import com.example.Service.GenericService;
+import com.example.Service.imp.StudentService;
 import com.example.dto.StudentDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -10,7 +11,7 @@ import java.util.List;
 @RestController
 public class StudentController {
     @Autowired
-    private GenericService<StudentDTO> studentService;
+    private StudentService studentService;
 
 
     @GetMapping("/api/students")

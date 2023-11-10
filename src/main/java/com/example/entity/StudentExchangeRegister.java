@@ -3,6 +3,7 @@ package com.example.entity;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
+import org.springframework.stereotype.Component;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -23,18 +24,28 @@ import java.util.List;
 )
 public class StudentExchangeRegister extends Base {
 
-    @ManyToMany
-    @JoinTable(name = "registerExchangeStudent",
-        joinColumns = @JoinColumn(name = "studentExchangeSubjectId"),
-            inverseJoinColumns = @JoinColumn(name = "registerId")
-    )
-    private List<Register> registers = new ArrayList<>();
+//    @ManyToMany
+//    @JoinTable(name = "studentExchangeRegisterRegister",
+//        joinColumns = @JoinColumn(name = "studentExchangeSubjectId"),
+//            inverseJoinColumns = @JoinColumn(name = "registerId")
+//    )
+//    private List<Register> registers = new ArrayList<>();
+    @ManyToOne
+    @JoinColumn(name = "register_iD")
+    private  Register register;
 
-    @ManyToMany(mappedBy = "studentExchangeRegisters")
+    @OneToMany(mappedBy = "studentExchangeRegister")
     private List<StudentRequestExchange> studentRequestExchanges = new ArrayList<>();
 
-    @Column(name = "status")
-    private Boolean status;
+    @ManyToOne
+    @JoinColumn(name = "student_id")
+    private Student student;
+
+    @Column(name = "statusExchange") //TODO: ĐÂY LÀ TRẠNG THÁI KHI MÔN HỌC ĐÃ ĐƯỢC TRAO ĐỔI
+    private Boolean statusExchange;
+
+    @Column(name = "statusRequest")
+    private Boolean statusRequest; //TODO: ĐÂY LÀ STATUS TRẠNG THÁI ĐÃ GỬI REQUEST TRAO ĐỔI
 
 
 }

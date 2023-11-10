@@ -9,5 +9,8 @@ public class SystemConstant {
     public static final String TOKEN_PREFIX = "Bearer ";
     public static final String HEADER_STRING = "Authorization";
     public static final String AUTHORITIES_KEY = "scopes";
+    public static final String CONFIRM_REQUEST_ACCEPT_EXCHANGE_SUBJECT = "confirmExchangeSubject";
+    public static final String CONFIRM_REQUEST_ACCEPT_POST = "confirmNewPost";
+    public static final String CONFIRM_REQUEST_ACCEPT_REPORT = "confirmReport";
 
 }

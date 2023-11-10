@@ -41,12 +41,6 @@ public class SubjectConverter implements GenericConverter<Subject, SubjectDTO> {
                 .modifiedDate(entity.getModifiedDate())
                 .credit(entity.getCredit())
                 .nameCollectSubject(entity.getNameCollectSubject())
-//                .majorCode(entity.getMajors().stream()
-//                        .map((v) -> v.getMajorCode()).collect(Collectors.toSet()))
-                .timeTableDTOS(entity.getTimeTables()
-                        .stream()
-                        .map(t -> timeTableConverter.toDto(t))
-                        .collect(Collectors.toList()))
                 .build();
     }
 

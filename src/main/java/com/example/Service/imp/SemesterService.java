@@ -35,13 +35,5 @@ public class SemesterService implements GenericService<SemesterDTO> {
         return null;
     }
 
-    @Override
-    public SemesterDTO getById(Long id) {
-        return null;
-    }
-
-    @Override
-    public List<SemesterDTO> getByCode(String code) {
-        return null;
-    }
+  
 }

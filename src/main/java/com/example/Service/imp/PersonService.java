@@ -1,6 +1,7 @@
 package com.example.Service.imp;
 
 import com.example.Service.GenericService;
+import com.example.Service.imp.search.GenericSearchBy;
 import com.example.converter.imp.PersonConverter;
 import com.example.dto.PersonDTO;
 import com.example.entity.Major;
@@ -63,13 +64,5 @@ public class PersonService implements GenericService<PersonDTO> {
         return null;
     }
 
-    @Override
-    public PersonDTO getById(Long id) {
-        return null;
-    }
-
-    @Override
-    public List<PersonDTO> getByCode(String code) {
-        return null;
-    }
+  
 }

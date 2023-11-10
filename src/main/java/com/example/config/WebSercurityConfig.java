@@ -59,10 +59,13 @@ public class WebSercurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http.cors().and().csrf().disable()
                 .authorizeRequests()
+                .antMatchers(HttpMethod.GET, "/api/notification/posts/**" )
+                .permitAll()
                 .antMatchers("/login")
                 .permitAll()
                 .antMatchers(HttpMethod.GET,"/api/time/table").hasAnyRole("ADMIN", "TEACHER")
                 .antMatchers(HttpMethod.POST, "/api/time/table").hasAnyRole("ADMIN", "TEACHER")
+                .antMatchers("/api/response").hasRole("ADMIN")
                 .anyRequest()
                 .authenticated()
                 .and()

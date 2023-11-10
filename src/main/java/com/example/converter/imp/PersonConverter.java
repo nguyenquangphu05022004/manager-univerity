@@ -37,8 +37,6 @@ public class PersonConverter implements GenericConverter<Person, PersonDTO> {
                 .address(entity.getAddress())
                 .username(entity.getUsername())
                 .id(entity.getId())
-                .majorCode(entity.getMajor().getMajorCode())
-                .majorId(entity.getMajor().getId())
                 .build();
     }
 

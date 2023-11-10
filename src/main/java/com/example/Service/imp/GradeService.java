@@ -1,16 +1,13 @@
 package com.example.Service.imp;
 
 import com.example.Service.GenericService;
+import com.example.Service.imp.search.GenericSearchBy;
 import com.example.converter.imp.GradeConverter;
 import com.example.dto.GradeDTO;
 import com.example.entity.Grade;
 import com.example.entity.Register;
-import com.example.entity.Student;
-import com.example.entity.Subject;
-import com.example.exception.ResourceNotFoundException;
 import com.example.repository.GradeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -69,13 +66,4 @@ public class GradeService implements GenericService<GradeDTO> {
 
     
 
-    @Override
-    public GradeDTO getById(Long id) {
-        return null;
-    }
-
-    @Override
-    public List<GradeDTO> getByCode(String code) {
-        return null;
-    }
 }

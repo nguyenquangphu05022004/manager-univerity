@@ -11,6 +11,6 @@ import lombok.experimental.SuperBuilder;
 public class RegisterDTO extends GenericDTO{
     private Long studentId;
     private Boolean status;
-    private SubjectDTO subjectDTO;
+    private TimeTableDTO timeTableDTO;
     private Long registerOfMajorId;
 }

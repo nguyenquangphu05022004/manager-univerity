@@ -15,7 +15,8 @@ public class TimeTableConverter implements GenericConverter<TimeTable, TimeTable
 
     @Autowired
     private ClassRoomConverter classRoomConverter;
-
+    @Autowired
+    private SubjectConverter subjectConverter;
     @Autowired
     private GroupConverter groupConverter;
     @Autowired
@@ -43,6 +44,7 @@ public class TimeTableConverter implements GenericConverter<TimeTable, TimeTable
                 .groupDTO(groupConverter.toDto(entity.getGroup()))
                 .classRoomDTO(classRoomConverter.toDto(entity.getClassRoom()))
                 .teacherDTO(teacherConverter.toDto(entity.getTeacher()))
+                .subjectDTO(subjectConverter.toDto(entity.getSubject()))
                 .build();
     }
 

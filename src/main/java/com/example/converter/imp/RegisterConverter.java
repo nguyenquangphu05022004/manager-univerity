@@ -13,9 +13,7 @@ import java.util.stream.Collectors;
 @Component("registerConverter")
 public class RegisterConverter implements GenericConverter<Register, RegisterDTO> {
     @Autowired
-    private StudentConverter studentConverter;
-    @Autowired
-    private SubjectConverter subjectConverter;
+    private TimeTableConverter timeTableConverter;
     @Autowired
     private RegisterOfMajorConverter registerOfMajorConverter;
     @Override
@@ -29,7 +27,7 @@ public class RegisterConverter implements GenericConverter<Register, RegisterDTO
                 .id(entity.getId())
                 .studentId(entity.getStudent().getId())
                 .status(entity.getStatus())
-                .subjectDTO(subjectConverter.toDto(entity.getSubject()))
+                .timeTableDTO(timeTableConverter.toDto(entity.getTimeTable()))
                 .registerOfMajorId(entity.getRegisterOfMajor().getId())
                 .build();
     }

@@ -12,5 +12,5 @@ import java.util.List;
 public class StudentRequestExchangeDTO extends GenericDTO{
     private Boolean statusRequest;
     private Boolean statusExchange;
-    private List<StudentExchangeRegisterDTO> studentExchangeRegisterDTO;
+    private StudentExchangeRegisterDTO studentExchangeRegisterDTO;
 }

@@ -30,9 +30,6 @@ public class Subject extends Base {
     @NotNull
     private String subjectCode;
 
-    @OneToMany(mappedBy = "subject")
-    private List<Register> registers = new ArrayList<>();
-
     @Column
     private Integer credit;
 
@@ -61,7 +58,7 @@ public class Subject extends Base {
     public boolean equals(Object obj) {
         if (obj instanceof Subject) {
             Subject subject = (Subject) obj;
-            if (subject.subjectCode.compareTo(subjectCode) == 0) {
+            if (subject.getId().compareTo(getId()) == 0) {
                 return true;
             }
         }

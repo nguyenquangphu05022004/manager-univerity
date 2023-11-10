@@ -27,8 +27,7 @@ public class StudentRequestExchangeConverter
                 .statusExchange(entity.getStatusExchange())
                 .statusRequest(entity.getStatusRequest())
                 .id(entity.getId())
-                .studentExchangeRegisterDTO(studentExchangeRegisterConverter
-                        .dtoList(entity.getStudentExchangeRegisters()))
+                .studentExchangeRegisterDTO(studentExchangeRegisterConverter.toDto(entity.getStudentExchangeRegister()))
                 .build();
     }
 

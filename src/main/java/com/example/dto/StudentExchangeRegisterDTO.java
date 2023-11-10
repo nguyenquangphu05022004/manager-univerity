@@ -10,7 +10,9 @@ import java.util.List;
 @SuperBuilder(toBuilder = true)
 @NoArgsConstructor
 public class StudentExchangeRegisterDTO extends GenericDTO{
-    private List<RegisterDTO> registerDTO;
-    private Boolean status;
-    private Long studentExchangeId;
+    private RegisterDTO registerDTO;
+    private Boolean statusRequest;
+    private StudentDTO studentDTO;
+    private Boolean statusExchange;
+
 }

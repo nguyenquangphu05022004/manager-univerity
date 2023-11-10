@@ -19,8 +19,8 @@ public class Register extends Base{
     private Student student;
 
     @ManyToOne
-    @JoinColumn(name = "subject_id")
-    private Subject subject;
+    @JoinColumn(name = "timeTableId")
+    private TimeTable timeTable;
 
     @ManyToOne
     @JoinColumn(name = "registerOfMajorId")
@@ -32,6 +32,20 @@ public class Register extends Base{
     @Column(name = "status")
     private Boolean status;
 
-    @ManyToMany(mappedBy = "registers")
-    private List<StudentExchangeRegister> studentExchangeRegisters = new ArrayList<>();
+    @OneToMany(mappedBy = "register")
+    private List<StudentExchangeRegister> studentExchangeRegisters;
+
+    @OneToMany(mappedBy = "register")
+    private List<StudentRequestExchange> studentRequestExchanges;
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj instanceof Register) {
+            Register register = (Register)obj;
+            if(register.getId() == getId()) {
+                return true;
+            }
+        }
+        return false;
+    }
 }

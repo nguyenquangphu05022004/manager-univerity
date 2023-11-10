@@ -15,13 +15,15 @@ public class StudentExchangeRegisterConverter
 
     @Autowired
     private RegisterConverter registerConverter;
-
+    @Autowired
+    private StudentConverter studentConverter;
 
     @Override
     public StudentExchangeRegister toEntity(StudentExchangeRegisterDTO dto) {
         return StudentExchangeRegister
                 .builder()
-                .status(true)
+                .statusRequest(true)
+                .statusExchange(false)
                 .build();
     }
 
@@ -31,8 +33,10 @@ public class StudentExchangeRegisterConverter
                 .builder()
                 .id(entity.getId())
                 .createBy(entity.getCreateBy())
-                .status(entity.getStatus())
-                .registerDTO(registerConverter.dtoList(entity.getRegisters()))
+                .statusRequest(entity.getStatusRequest())
+                .registerDTO(registerConverter.toDto(entity.getRegister()))
+                .studentDTO(studentConverter.toDto(entity.getStudent()))
+                .statusExchange(entity.getStatusExchange())
                 .build();
     }
 

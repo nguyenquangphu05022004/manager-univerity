@@ -1,10 +1,11 @@
 package com.example.Service.imp;
 
 import com.example.Service.GenericService;
+import com.example.Service.IGenericServiceExpand;
+import com.example.Service.imp.search.GenericSearchBy;
 import com.example.converter.imp.RegisterOfMajorConverter;
 import com.example.dto.RegisterOfMajorDTO;
 import com.example.entity.*;
-import com.example.exception.ResourceNotFoundException;
 import com.example.repository.RegisterOfMajorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -15,7 +16,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 @Service
-public class RegisterOfMajorService implements GenericService<RegisterOfMajorDTO> {
+public class RegisterOfMajorService implements GenericService<RegisterOfMajorDTO>, IGenericServiceExpand<RegisterOfMajorDTO> {
     @Autowired
     private GenericSearchBy searchBy;
     @Autowired
@@ -56,18 +57,6 @@ public class RegisterOfMajorService implements GenericService<RegisterOfMajorDTO
 
     @Override
     public RegisterOfMajorDTO getById(Long id) {
-        return registerOfMajorConverter
-                .toDto(registerOfMajorRepository
-                        .findOneById(id)
-                        .orElseThrow(() -> {
-                            return new ResourceNotFoundException("Not found RegisterOfMajor with Id: " + id);
-                        }));
+        return registerOfMajorConverter.toDto(searchBy.findRegisterOfMajorById(id));
     }
-
-    @Override
-    public List<RegisterOfMajorDTO> getByCode(String code) {
-        return null;
-    }
-
-
 }

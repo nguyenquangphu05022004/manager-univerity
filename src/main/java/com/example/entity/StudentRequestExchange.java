@@ -15,12 +15,18 @@ import java.util.List;
 @NoArgsConstructor
 public class StudentRequestExchange extends Base{
 
+    @ManyToOne
+    @JoinColumn(name = "student_id")
+    private Student student;
 
-    @ManyToMany
-    @JoinTable(name = "studentRequest_studentExchange_register",
-            joinColumns = @JoinColumn(name = "studentRequest"),
-            inverseJoinColumns = @JoinColumn(name = "studentExchange"))
-    private List<StudentExchangeRegister> studentExchangeRegisters = new ArrayList<>();
+
+    @ManyToOne
+    @JoinColumn(name = "register_id")
+    private Register register;
+
+    @ManyToOne
+    @JoinColumn(name = "studentExchangeRegisterId")
+    private StudentExchangeRegister studentExchangeRegister;
 
     @Column(name = "statusRequest")
     private Boolean statusRequest;

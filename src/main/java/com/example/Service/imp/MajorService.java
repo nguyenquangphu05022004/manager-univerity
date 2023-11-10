@@ -1,7 +1,8 @@
 package com.example.Service.imp;
 
 import com.example.Service.GenericService;
-import com.example.converter.GenericConverter;
+import com.example.Service.IGenericServiceExpand;
+import com.example.Service.imp.search.GenericSearchBy;
 import com.example.converter.imp.MajorConverter;
 import com.example.dto.MajorDTO;
 import com.example.entity.Major;
@@ -14,8 +15,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service("majorService")
-public class MajorService implements GenericService<MajorDTO> {
+public class MajorService implements GenericService<MajorDTO>, IGenericServiceExpand<MajorDTO> {
 
+
+    @Autowired
+    private GenericSearchBy searchBy;
     @Autowired
     private MajorRepository majorRepository;
     @Autowired
@@ -55,19 +59,9 @@ public class MajorService implements GenericService<MajorDTO> {
         return listDto;
     }
 
+
     @Override
     public MajorDTO getById(Long id) {
-        return converter.toDto(
-                majorRepository.findOneById(id)
-                .orElseThrow(
-                        () -> new ResourceNotFoundException
-                                ("Không tìm thấy Major với mã: " + id)
-        ));
+        return converter.toDto(searchBy.findMajorById(id));
     }
-
-    @Override
-    public List<MajorDTO> getByCode(String code) {
-        return null;
-    }
-
 }

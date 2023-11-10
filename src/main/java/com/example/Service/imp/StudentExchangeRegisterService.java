@@ -1,14 +1,17 @@
 package com.example.Service.imp;
 
+import com.example.Service.imp.search.GenericSearchBy;
 import com.example.converter.imp.StudentExchangeRegisterConverter;
 import com.example.dto.StudentExchangeRegisterDTO;
+import com.example.entity.Person;
 import com.example.entity.Register;
+import com.example.entity.Student;
 import com.example.entity.StudentExchangeRegister;
 import com.example.repository.StudentExchangeRegisterRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -27,21 +30,43 @@ public class StudentExchangeRegisterService{
 
         Register register = searchBy.findRegisterById(registerId);
 
-        StudentExchangeRegister studentExchangeRegister =
-                StudentExchangeRegister
-                        .builder()
-                        .status(true)
-                        .registers(new ArrayList<>())
-                        .build();
+        Person person = searchBy.findPersonByUsername(
+                SecurityContextHolder
+                .getContext()
+                .getAuthentication()
+                .getName()
+        );
+        boolean isExistsRegister = isExistsRegister(person.getStudent(), register);
+        if(isExistsRegister) {
+            StudentExchangeRegister studentExchangeRegister =
+                    StudentExchangeRegister
+                            .builder()
+                            .statusExchange(false)
+                            .student(person.getStudent())
+                            .register(register)
+                            .statusRequest(true)
+                            .build();
 
-        studentExchangeRegister.getRegisters().add(register);
+            return studentExchangeRegisterConverter
+                    .toDto(
+                            studentExchangeRegisterRepository
+                                    .save(studentExchangeRegister)
+                    );
+        } else {
+            return null;
+        }
 
-        return studentExchangeRegisterConverter
-                .toDto(
-                        studentExchangeRegisterRepository
-                                .save(studentExchangeRegister)
-                );
     }
+
+    private boolean isExistsRegister(Student student, Register register) {
+        for(Register r : student.getRegisters()) {
+            if(r.equals(register)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     public List<StudentExchangeRegisterDTO> getListExchangeByRegisterOfMajorId(Long registerOfMajorId) {
         return studentExchangeRegisterConverter
                 .dtoList(

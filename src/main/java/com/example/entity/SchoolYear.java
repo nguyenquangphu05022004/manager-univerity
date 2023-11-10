@@ -15,8 +15,6 @@ import java.util.List;
 @Getter
 public class SchoolYear extends Base{
 
-    @OneToMany(mappedBy = "schoolYear")
-    private List<SemesterOfYear> semesterOfYears = new ArrayList<>();
 
     @Column(name = "schoolyear")
     private String schoolYear;

@@ -23,18 +23,7 @@ public class CourseService implements GenericService<CourseDTO> {
 
     }
 
-    @Override
-    public List<CourseDTO> getByCode(String code) {
-        // TODO Auto-generated method stub
-        return null;
 
-    }
-
-    @Override
-    public CourseDTO getById(Long id) {
-        // TODO Auto-generated method stub
-        return null;
-    }
 
     @Override
     public List<CourseDTO> list() {

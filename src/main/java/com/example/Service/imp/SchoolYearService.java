@@ -1,11 +1,11 @@
 package com.example.Service.imp;
 
 import com.example.Service.GenericService;
+import com.example.Service.imp.search.GenericSearchBy;
 import com.example.converter.imp.SchoolYearConverter;
 import com.example.dto.SchoolYearDTO;
 import com.example.entity.Course;
 import com.example.entity.SchoolYear;
-import com.example.entity.Semester;
 import com.example.entity.Student;
 import com.example.repository.SchoolYearRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -53,13 +53,4 @@ public class SchoolYearService implements GenericService<SchoolYearDTO> {
 
     }
 
-    @Override
-    public SchoolYearDTO getById(Long id) {
-        return null;
-    }
-
-    @Override
-    public List<SchoolYearDTO> getByCode(String code) {
-        return null;
-    }
 }

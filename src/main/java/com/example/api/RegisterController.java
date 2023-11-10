@@ -13,10 +13,10 @@ public class RegisterController {
     @Autowired
     private RegisterService registerService;
 
-    @PostMapping("/api/register-subject/{subjectId}/{registerOfMajorId}")
-    public RegisterDTO registerSubject(@PathVariable Long subjectId,
+    @PostMapping("/api/register-subject/{timeTableId}/{registerOfMajorId}")
+    public RegisterDTO registerSubject(@PathVariable Long timeTableId,
                                        @PathVariable Long registerOfMajorId) {
-        return registerService.register(subjectId, registerOfMajorId);
+        return registerService.register(timeTableId, registerOfMajorId);
     }
     @DeleteMapping("/api/register-subject/{registerId}")
     public void removeRecordRegister(@PathVariable Long registerId) {
@@ -32,6 +32,5 @@ public class RegisterController {
     public List<RegisterDTO> getAllByUserCurrent() {
         return registerService.getAllRecordOfStudent();
     }
-
 
 }

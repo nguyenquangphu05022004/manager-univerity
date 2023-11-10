@@ -1,21 +1,21 @@
 package com.example.Service.imp;
 
 import com.example.Service.GenericService;
+import com.example.Service.IGenericServiceExpand;
+import com.example.Service.imp.search.GenericSearchBy;
 import com.example.converter.imp.SubjectConverter;
 import com.example.dto.SubjectDTO;
-import com.example.entity.Student;
 import com.example.entity.Subject;
 
 import com.example.repository.SubjectRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Service("serviceOfSubject")
-public class SubjectService implements GenericService<SubjectDTO> {
+public class SubjectService implements GenericService<SubjectDTO>, IGenericServiceExpand<SubjectDTO> {
 
     private SubjectConverter converter;
     private SubjectRepository subjectRepository;
@@ -65,15 +65,7 @@ public class SubjectService implements GenericService<SubjectDTO> {
         return dtolist;
     }
 
-    @Override
-    public SubjectDTO getById(Long id) {
-        return converter.toDto(genericSearchBy.findBySubjectId(id));
-    }
-
-    @Override
-    public List<SubjectDTO> getByCode(String code) {
-        return null;
-    }
+  
 
     public List<SubjectDTO> getAllByMajorId(Long majorId) {
         return converter.dtoList(genericSearchBy.findAllSubjectByMajorId(majorId));
@@ -98,4 +90,8 @@ public class SubjectService implements GenericService<SubjectDTO> {
                                 (majorId, schoolYearId, courseId, semesterId));
     }
 
+    @Override
+    public SubjectDTO getById(Long id) {
+        return converter.toDto(genericSearchBy.findBySubjectId(id));
+    }
 }

@@ -1,13 +1,11 @@
 package com.example.Service.imp;
 
 import com.example.Service.GenericService;
+import com.example.Service.imp.search.GenericSearchBy;
 import com.example.converter.imp.ClassRoomConverter;
 import com.example.dto.ClassRoomDTO;
 import com.example.entity.ClassRoom;
-import com.example.entity.Subject;
-import com.example.exception.ResourceNotFoundException;
 import com.example.repository.RoomRepository;
-import com.example.repository.SubjectRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -50,13 +48,5 @@ public class RoomService implements GenericService<ClassRoomDTO> {
         return null;
     }
 
-    @Override
-    public ClassRoomDTO getById(Long id) {
-        return null;
-    }
-
-    @Override
-    public List<ClassRoomDTO> getByCode(String code) {
-        return null;
-    }
+   
 }
