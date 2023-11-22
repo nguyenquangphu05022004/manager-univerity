@@ -1,6 +1,7 @@
 package com.example.converter.imp;
 
 import com.example.converter.GenericConverter;
+import com.example.dto.SubjectDTO;
 import com.example.dto.TimeTableDTO;
 import com.example.entity.TimeTable;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -44,7 +45,7 @@ public class TimeTableConverter implements GenericConverter<TimeTable, TimeTable
                 .groupDTO(groupConverter.toDto(entity.getGroup()))
                 .classRoomDTO(classRoomConverter.toDto(entity.getClassRoom()))
                 .teacherDTO(teacherConverter.toDto(entity.getTeacher()))
-                .subjectDTO(subjectConverter.toDto(entity.getSubject()))
+                .subjectDTO(subjectConverter.toDto(SubjectDTO.builder().build(), entity.getSubject()))
                 .build();
     }
 

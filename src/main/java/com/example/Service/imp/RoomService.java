@@ -29,8 +29,8 @@ public class RoomService implements GenericService<ClassRoomDTO> {
         } else {
             classRoom = classRoomConverter.toEntity(object);
         }
-//        classRoom.toBuilder()
-//            .subject(subject);
+        classRoom.toBuilder()
+            .studentQuantityCurrent(0);
         return classRoomConverter.toDto(roomRepository.save(classRoom));
     }
 

@@ -10,6 +10,7 @@ import com.example.entity.*;
 import com.example.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.*;
 
@@ -27,6 +28,7 @@ public class StudentService implements GenericService<StudentDTO>, IGenericServi
     private PersonService personService;
 
 
+    @Transactional
     @Override
     public StudentDTO save(StudentDTO object) {
         Person person = personConverter.toEntity(personService.save(object.getPersonDTO()));

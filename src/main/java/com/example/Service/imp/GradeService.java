@@ -59,9 +59,10 @@ public class GradeService implements GenericService<GradeDTO> {
 
     @Override
     public List<GradeDTO> list() {
-        // List<Grade> entityList = gradeRepository.findAll();
-        // return gradeConverter.dtoList(entityList);
-        return null;
+        return gradeConverter.dtoList(gradeRepository.findAll());
+    }
+    public List<GradeDTO> list(Long registerOfMajorId) {
+        return gradeConverter.dtoList(gradeRepository.findAllByRegisterRegisterOfMajorId(registerOfMajorId));
     }
 
     

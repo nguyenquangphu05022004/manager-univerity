@@ -1,11 +1,8 @@
 package com.example.converter.imp;
 
 import com.example.converter.GenericConverter;
-import com.example.dto.CourseDTO;
 import com.example.dto.RegisterOfMajorDTO;
-import com.example.entity.Major;
 import com.example.entity.RegisterOfMajor;
-import com.example.entity.Semester;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -23,6 +20,8 @@ public class RegisterOfMajorConverter implements GenericConverter<RegisterOfMajo
     private MajorConverter majorConverter;
     @Autowired
     private SubjectConverter subjectConverter;
+    @Autowired
+    private TuitionConverter tuitionConverter;
 
     @Override
     public RegisterOfMajor toEntity(RegisterOfMajorDTO dto) {
@@ -32,10 +31,12 @@ public class RegisterOfMajorConverter implements GenericConverter<RegisterOfMajo
     @Override
     public RegisterOfMajorDTO toDto(RegisterOfMajor entity) {
         return RegisterOfMajorDTO.builder()
+                .id(entity.getId())
                 .semesterDTO(semesterConverter.toDto(entity.getSemester()))
                 .majorDTO(majorConverter.toDto(entity.getMajor()))
                 .schoolYearDTO(schoolYearConverter.toDto(entity.getSchoolYear()))
                 .subjects(subjectConverter.dtoList(entity.getSubjects()))
+                .tuitionDTO(tuitionConverter.toDto(entity.getTuition()))
                 .build();
     }
 

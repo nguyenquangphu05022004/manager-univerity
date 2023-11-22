@@ -2,6 +2,8 @@ package com.example.api;
 
 import com.example.Service.imp.RegisterService;
 import com.example.dto.RegisterDTO;
+import com.example.dto.RegisterOfMajorDTO;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -23,14 +25,9 @@ public class RegisterController {
         registerService.delete(registerId);
     }
 
-    @GetMapping("/api/register-subject")
-    public List<RegisterDTO> getAllRegisterOfStudent() {
-        return registerService.getAllRecordOfStudent();
-    }
-
-    @GetMapping("/api/register-subject/user")
-    public List<RegisterDTO> getAllByUserCurrent() {
-        return registerService.getAllRecordOfStudent();
+    @GetMapping("/api/register-subject/{registerOfMajorId}")
+    public List<RegisterDTO> getAllRegisterOfStudent(@PathVariable Long registerOfMajorId) {
+        return registerService.getAllRecordOfStudent(registerOfMajorId);
     }
 
 }

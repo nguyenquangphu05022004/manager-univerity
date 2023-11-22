@@ -1,5 +1,6 @@
 package com.example.entity;
 
+import com.example.entity.embedded.InfoGrade;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
@@ -16,20 +17,13 @@ public class Grade extends Base{
     @OneToOne
     @JoinColumn(name = "register_id")
     private Register register;
+    @Embedded
+    private InfoGrade infoGrade;
 
-    @Column(columnDefinition = "float(2)")
-    private Float attend;
-    @Column(columnDefinition = "float(2)")
-    private Float midterm;
-    @Column(name = "endofterm", columnDefinition = "float(2)")
-    private Float endOfTerm;
-    @Column(columnDefinition = "float(2)")
-    private Float test;
-    @Column(columnDefinition = "float(2)")
-    private Float practice;
-    @Column(columnDefinition = "float(2)")
+    @Column(name = "gpa")
     private Float gpa;
 
-
-
+    @ManyToOne
+    @JoinColumn(name = "coefficient_id")
+    private Coefficient coefficient;
 }

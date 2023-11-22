@@ -6,7 +6,6 @@ import com.example.Service.imp.search.GenericSearchBy;
 import com.example.converter.imp.MajorConverter;
 import com.example.dto.MajorDTO;
 import com.example.entity.Major;
-import com.example.exception.ResourceNotFoundException;
 import com.example.repository.MajorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -29,11 +28,7 @@ public class MajorService implements GenericService<MajorDTO>, IGenericServiceEx
     public MajorDTO save(MajorDTO object) {
         Major major = new Major();
         if (object.getId() != null) {
-            Major oldMajor = majorRepository.
-                    findOneById(object.getId())
-                    .orElseThrow(() -> new ResourceNotFoundException
-                            ("Không tìm thấy Major với mã: " +
-                                    object.getId()));
+            Major oldMajor = searchBy.findMajorById(object.getId());
             major = converter.toEntity(oldMajor, object);
         } else {
             major = converter.toEntity(object);

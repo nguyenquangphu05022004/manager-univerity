@@ -19,9 +19,9 @@ public class RegisterOfMajorController {
         return registerOfMajorService.save(registerOfMajorDTO);
     }
 
-    @GetMapping("/api/subject/major/{registerOfMajorId}")
-    public RegisterOfMajorDTO getRegisterOfMajorById(
-            @PathVariable Long registerOfMajorId) {
-        return registerOfMajorService.getById(registerOfMajorId);
+    @GetMapping("/api/subject/major")
+    public List<RegisterOfMajorDTO> getListByMajorIdOfCurrentStudent() {
+        return registerOfMajorService.getByMajorIdOfCurrentStudent();
     }
+
 }

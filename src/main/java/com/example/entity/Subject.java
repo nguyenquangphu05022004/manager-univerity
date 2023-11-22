@@ -37,7 +37,7 @@ public class Subject extends Base {
     private String nameCollectSubject;
 
     @OneToMany(mappedBy = "subject")
-    private Set<TimeTable> timeTables = new HashSet<>();
+    private List<TimeTable> timeTables;
 
 
     @ManyToMany
@@ -54,15 +54,6 @@ public class Subject extends Base {
     @ManyToMany(mappedBy = "subjects")
     private List<Teacher> teachers = new ArrayList<>();
 
-    @Override
-    public boolean equals(Object obj) {
-        if (obj instanceof Subject) {
-            Subject subject = (Subject) obj;
-            if (subject.getId().compareTo(getId()) == 0) {
-                return true;
-            }
-        }
-        return false;
-    }
+
 }
 

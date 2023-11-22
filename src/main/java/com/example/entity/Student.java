@@ -26,11 +26,8 @@ public class Student extends Base {
     @OneToMany(mappedBy = "student")
     private List<Blog> blogs;
 
-    @ManyToMany
-    @JoinTable(name = "student_classroom",
-            joinColumns = @JoinColumn(name = "student_id"),
-            inverseJoinColumns = @JoinColumn(name = "classroom_id"))
-    private List<ClassRoom> classRooms = new ArrayList<>();
+    @ManyToMany(mappedBy = "students")
+    private List<ClassRoom> classRooms;
 
     @OneToOne
     @JoinColumn(name = "person_id", unique = true)
@@ -39,6 +36,8 @@ public class Student extends Base {
 
     @ManyToMany(mappedBy = "students")
     private List<SchoolYear> schoolYears = new ArrayList<>();
+
+
 
 
     @ManyToOne(cascade = CascadeType.ALL)

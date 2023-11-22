@@ -34,4 +34,8 @@ public class RegisterOfMajor extends Base{
     @ManyToOne
     @JoinColumn(name = "semester_id")
     private Semester semester;
+
+    @ManyToOne
+    @JoinColumn(name = "tuition_id")
+    private Tuition tuition;
 }

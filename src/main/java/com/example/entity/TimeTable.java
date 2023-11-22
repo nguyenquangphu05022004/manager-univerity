@@ -3,7 +3,6 @@ package com.example.entity;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
-
 import javax.persistence.*;
 import java.sql.Date;
 import java.sql.Time;
@@ -24,7 +23,6 @@ public class TimeTable extends Base{
     @Column(name = "end_time")
     private Time endTime;
 
-
     @Column(name = "dayofweek")
     private Integer dayOfWeek;
 
@@ -41,9 +39,9 @@ public class TimeTable extends Base{
     private ClassRoom classRoom;
 
 
-
     @ManyToOne
     @JoinColumn(name = "teacher_id")
     private Teacher teacher;
+
 
 }

@@ -12,11 +12,13 @@ public interface StudentExchangeRegisterRepository
         extends JpaRepository<StudentExchangeRegister, Long> {
     Optional<StudentExchangeRegister> findOneById(Long id);
 
-    @Query(value = "select\n" +
-            "  s3.*\n" +
-            "from register s1 inner join register_exchange_student s2 on s1.id = s2.register_id\n" +
-            "inner join student_exchange_register s3 on s2.student_exchange_subject_id = s3.id\n" +
-            "where s1.register_of_major_id = :registerOfMajorId",
-        nativeQuery = true)
-    List<StudentExchangeRegister> findAllByRegisterOfMajorIdCustom(@Param("registerOfMajorId") Long registerOfMajorId);
+    @Query(value = "select s1.*\n" +
+            "from student_exchange_register s1\n" +
+            "       inner join register s2 on s1.register_id = s2.id\n" +
+            "where s1.student_id != :studentId\n" +
+            "  and s2.time_table_id not in (select r1.time_table_id\n" +
+            "                               from register r1\n" +
+            "                               where r1.student_id = :studentId)\n",
+    nativeQuery = true)
+    List<StudentExchangeRegister> findAllByStudentIdDifferent(@Param("studentId") Long studentId);
 }

@@ -21,8 +21,6 @@ public class TimeTableService implements GenericService<TimeTableDTO> {
     private TimeTableConverter timeTableConverter;
     @Autowired
     private GenericSearchBy searchBy;
-    @Autowired
-    private ClassRoomConverter classRoomConverter;
 
     @Override
     public TimeTableDTO save(TimeTableDTO object) {

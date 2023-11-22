@@ -34,5 +34,9 @@ public class GradeController {
         return gradeService.list();
     }
 
+    @GetMapping("/api/grades/user/{registerOfMajorId}")
+    public List<GradeDTO> getListGrade(@PathVariable Long registerOfMajorId) {
+        return gradeService.list(registerOfMajorId);
+    }
 
 }

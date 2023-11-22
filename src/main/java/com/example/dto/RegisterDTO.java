@@ -1,6 +1,7 @@
 package com.example.dto;
 
-import com.example.entity.Subject;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
@@ -10,7 +11,15 @@ import lombok.experimental.SuperBuilder;
 @NoArgsConstructor
 public class RegisterDTO extends GenericDTO{
     private Long studentId;
-    private Boolean status;
     private TimeTableDTO timeTableDTO;
-    private Long registerOfMajorId;
+    private Boolean isExchange;
+    private InfoRegisterOfMajor infoRegisterOfMajor;
+    @Getter
+    @AllArgsConstructor
+    @Builder
+    public static class InfoRegisterOfMajor {
+        private Long registerOfMajorId;
+        private TuitionDTO tuitionDTO;
+
+    }
 }

@@ -67,12 +67,17 @@ public class StudentExchangeRegisterService{
         return false;
     }
 
-    public List<StudentExchangeRegisterDTO> getListExchangeByRegisterOfMajorId(Long registerOfMajorId) {
+    public List<StudentExchangeRegisterDTO> getListExchangeByRegisterOfMajorId() {
+        Person person = searchBy.findPersonByUsername(
+                SecurityContextHolder
+                .getContext()
+                .getAuthentication()
+                .getName()
+        );
+        List<StudentExchangeRegister> list = studentExchangeRegisterRepository
+                .findAllByStudentIdDifferent(person.getStudent().getId());
         return studentExchangeRegisterConverter
-                .dtoList(
-                        studentExchangeRegisterRepository
-                                .findAllByRegisterOfMajorIdCustom(registerOfMajorId)
-                );
+                .dtoList(list);
     }
 
 

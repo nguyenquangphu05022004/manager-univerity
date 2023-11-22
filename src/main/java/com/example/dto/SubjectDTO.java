@@ -4,7 +4,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
-import java.sql.Date;
 import java.util.ArrayList;
 import java.util.LinkedHashSet;
 import java.util.List;
@@ -19,10 +18,7 @@ public class SubjectDTO extends GenericDTO implements Comparable<SubjectDTO> {
     private Integer credit;
     private String nameCollectSubject;
     private Set<String> majorCode = new LinkedHashSet<>();
-    private List<Long> groupId = new ArrayList<>();
-    private List<String> groupCode = new ArrayList<>();
     private List<TimeTableDTO> timeTableDTOS = new ArrayList<>();
-
     @Override
     public int compareTo(SubjectDTO o) {
         return this.subjectName.compareTo(o.getSubjectName());

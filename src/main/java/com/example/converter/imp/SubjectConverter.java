@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -41,6 +42,7 @@ public class SubjectConverter implements GenericConverter<Subject, SubjectDTO> {
                 .modifiedDate(entity.getModifiedDate())
                 .credit(entity.getCredit())
                 .nameCollectSubject(entity.getNameCollectSubject())
+                .timeTableDTOS(timeTableConverter.dtoList(entity.getTimeTables()))
                 .build();
     }
 
@@ -53,7 +55,17 @@ public class SubjectConverter implements GenericConverter<Subject, SubjectDTO> {
 
     @Override
     public SubjectDTO toDto(SubjectDTO dto, Subject entity) {
-        return null;
+        return dto.toBuilder()
+                .subjectCode(entity.getSubjectCode())
+                .subjectName(entity.getSubjectName())
+                .id(entity.getId())
+                .createBy(entity.getCreateBy())
+                .createDate(entity.getCreateDate())
+                .modifiedBy(entity.getModifiedBy())
+                .modifiedDate(entity.getModifiedDate())
+                .credit(entity.getCredit())
+                .nameCollectSubject(entity.getNameCollectSubject())
+                .build();
     }
 
 

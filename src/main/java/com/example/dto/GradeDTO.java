@@ -1,29 +1,28 @@
 package com.example.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
+import com.example.entity.embedded.InfoGrade;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
-import java.util.Date;
-
 @Getter
 @SuperBuilder(toBuilder = true)
 @NoArgsConstructor
-public class GradeDTO extends GenericDTO{
-        private Long registerId;
-        private RegisterDTO registerDTO;
-        private Float attend;
-        private Float midterm;
-        private Float endOfTerm;
-        private Float test;
-        private Float practice;
-        private Float gpa;
+public class GradeDTO extends GenericDTO {
+    private Long registerId;
+    private RegisterDTO registerDTO;
+    private InfoGrade infoGrade;
+    private CoefficientDTO coefficient;
+    private Float gpa;
+    public float gpa() {
+        this.gpa = coefficient.getInfoGrade().getAttend() * infoGrade.getAttend()
+                + coefficient.getInfoGrade().getMidterm() * infoGrade.getMidterm()
+                + coefficient.getInfoGrade().getEndOfTerm() * infoGrade.getEndOfTerm()
+                + coefficient.getInfoGrade().getPractice() * infoGrade.getPractice()
+                + coefficient.getInfoGrade().getTest() * infoGrade.getTest();
+        return gpa;
+    }
 
-        public float gpa() {
-                this.gpa = attend * 0.1f + midterm * 0.2f + endOfTerm * 0.7f;
-                return gpa;
-        }
+
 
 }

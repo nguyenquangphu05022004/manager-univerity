@@ -2,13 +2,10 @@ package com.example.api;
 
 import com.example.Service.imp.StudentExchangeRegisterService;
 import com.example.dto.StudentExchangeRegisterDTO;
-import com.example.dto.StudentRequestExchangeDTO;
-import com.example.entity.StudentExchangeRegister;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.xml.ws.Response;
 import java.util.List;
 
 @RestController
@@ -27,9 +24,9 @@ public class StudentExchangeRegisterController {
                  : ResponseEntity.ok("Mã RegisterId: " + registerId + " bạn chưa có!");
     }
 
-    @GetMapping("/api/student/subject/ex/{registerOfMajor}")
-    public List<StudentExchangeRegisterDTO> getListExchangeOfStudent(@PathVariable Long registerOfMajor) {
-        return studentExchangeRegisterService.getListExchangeByRegisterOfMajorId(registerOfMajor);
+    @GetMapping("/api/student/subject/ex")
+    public List<StudentExchangeRegisterDTO> getListExchangeOfStudent() {
+        return studentExchangeRegisterService.getListExchangeByRegisterOfMajorId();
     }
 
 

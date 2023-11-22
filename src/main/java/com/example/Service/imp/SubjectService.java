@@ -7,7 +7,9 @@ import com.example.converter.imp.SubjectConverter;
 import com.example.dto.SubjectDTO;
 import com.example.entity.Subject;
 
+import com.example.entity.Tuition;
 import com.example.repository.SubjectRepository;
+import com.example.repository.TuitionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -33,7 +35,6 @@ public class SubjectService implements GenericService<SubjectDTO>, IGenericServi
     @Override
     public SubjectDTO save(SubjectDTO object) {
         Subject subject = new Subject();
-
         if (object.getId() != null) {
             Subject oldSubject = genericSearchBy.findBySubjectId(object.getId());
             subject = converter.toEntity(oldSubject, object);
@@ -43,9 +44,7 @@ public class SubjectService implements GenericService<SubjectDTO>, IGenericServi
         for (String code : object.getMajorCode()) {
             subject.getMajors().add(genericSearchBy.findByCodeMajor(code));
         }
-        subject = subjectRepository
-                .save(subject);
-        return converter.toDto(subject);
+        return converter.toDto(object, subjectRepository.save(subject));
     }
 
     @Override
@@ -65,7 +64,6 @@ public class SubjectService implements GenericService<SubjectDTO>, IGenericServi
         return dtolist;
     }
 
-  
 
     public List<SubjectDTO> getAllByMajorId(Long majorId) {
         return converter.dtoList(genericSearchBy.findAllSubjectByMajorId(majorId));

@@ -23,4 +23,5 @@ public class Course extends Base{
     private List<Student> students = new ArrayList<>();
     @ManyToMany(mappedBy = "courses")
     private List<SchoolYear> schoolYears = new ArrayList<>();
+
 }

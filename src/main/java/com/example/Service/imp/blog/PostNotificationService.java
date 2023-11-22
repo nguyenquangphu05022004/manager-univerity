@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.example.Service.imp.search.GenericSearchBy;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import com.example.Service.GenericService;
@@ -49,7 +50,8 @@ public class PostNotificationService implements GenericService<PostNotificationD
 
     @Override
     public List<PostNotificationDTO> list() {
-        List<PostNotification> posts = postNotificationRepository.findAll();
+        List<PostNotification> posts = postNotificationRepository
+                .findAll(new Sort(Sort.Direction.DESC, "createDate"));
         return postNotificationConverter.dtoList(posts);
     }
 

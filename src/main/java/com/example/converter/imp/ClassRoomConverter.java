@@ -29,6 +29,7 @@ public class ClassRoomConverter implements GenericConverter<ClassRoom, ClassRoom
                 .createDate(entity.getCreateDate())
                 .modifiedBy(entity.getModifiedBy())
                 .modifiedDate(entity.getModifiedDate())
+                .studentQuantityCurrent(entity.getStudentQuantityCurrent())
                 .build();
     }
 

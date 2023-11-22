@@ -23,7 +23,8 @@ public class ResponseExchangeSubject implements IResponseService {
     private StudentRequestExchangeRepository studentRequestExchangeRepository;
     @Autowired
     private StudentExchangeRegisterRepository studentExchangeRegisterRepository;
-
+    @Autowired
+    private GenericSearchBy searchBy;
 
     private Boolean save(StudentRequestExchange studentRequestExchange,
                          StudentExchangeRegister studentExchangeRegister) {
@@ -56,20 +57,9 @@ public class ResponseExchangeSubject implements IResponseService {
     @Override
     public Boolean confirm(Object... params) {
         StudentExchangeRegister studentExchangeRegister
-                = (StudentExchangeRegister)
-                GenericSearchBy
-                        .findOneById(
-                                "StudentExchangeRegister",
-                                (Long) params[0],
-                                studentExchangeRegisterRepository);
+                = searchBy.findStudentExchangeRegisterById((Long)params[0]);
         StudentRequestExchange studentRequestExchange
-                = (StudentRequestExchange) GenericSearchBy
-                .findOneById(
-                        "StudentRequestExchange",
-                        (Long) params[1],
-                        studentRequestExchangeRepository
-                );
-
+                = searchBy.findStudentRequestExchangeById((Long)params[1]);
         return save(studentExchangeRegister.getRegister(),
                 studentRequestExchange.getStudent()) &&
                 save(studentRequestExchange.getRegister(),

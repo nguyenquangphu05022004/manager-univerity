@@ -26,11 +26,8 @@ public class Register extends Base{
     @JoinColumn(name = "registerOfMajorId")
     private RegisterOfMajor registerOfMajor;
 
-    @OneToOne(mappedBy = "register")
+    @OneToOne(mappedBy = "register", cascade = CascadeType.ALL)
     private Grade grade;
-
-    @Column(name = "status")
-    private Boolean status;
 
     @OneToMany(mappedBy = "register")
     private List<StudentExchangeRegister> studentExchangeRegisters;
@@ -38,6 +35,8 @@ public class Register extends Base{
     @OneToMany(mappedBy = "register")
     private List<StudentRequestExchange> studentRequestExchanges;
 
+    @Column(name = "isExchange")
+    private Boolean isExchange;
     @Override
     public boolean equals(Object obj) {
         if(obj instanceof Register) {

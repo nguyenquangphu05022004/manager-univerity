@@ -25,15 +25,13 @@ public class Major extends Base{
     @Column(columnDefinition = "nvarchar(60)")
     private String name;
 
-
-
     @ManyToMany(mappedBy = "majors")
     private List<Subject> subjects = new ArrayList<>();
 
-
-
     @OneToMany(mappedBy = "major")
     private List<RegisterOfMajor> registerOfMajors;
+
+
 
     @Override
     public boolean equals(Object obj) {

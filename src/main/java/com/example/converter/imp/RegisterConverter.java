@@ -2,6 +2,7 @@ package com.example.converter.imp;
 
 import com.example.converter.GenericConverter;
 import com.example.dto.RegisterDTO;
+import com.example.dto.TimeTableDTO;
 import com.example.entity.Register;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -15,7 +16,7 @@ public class RegisterConverter implements GenericConverter<Register, RegisterDTO
     @Autowired
     private TimeTableConverter timeTableConverter;
     @Autowired
-    private RegisterOfMajorConverter registerOfMajorConverter;
+    private TuitionConverter tuitionConverter;
     @Override
     public Register toEntity(RegisterDTO dto) {
         return null;
@@ -23,12 +24,19 @@ public class RegisterConverter implements GenericConverter<Register, RegisterDTO
 
     @Override
     public RegisterDTO toDto(Register entity) {
+        RegisterDTO.InfoRegisterOfMajor infoRegisterOfMajor
+                = RegisterDTO
+                .InfoRegisterOfMajor
+                .builder()
+                .registerOfMajorId(entity.getRegisterOfMajor().getId())
+                .tuitionDTO(tuitionConverter.toDto(entity.getRegisterOfMajor().getTuition()))
+                .build();
         return RegisterDTO.builder()
                 .id(entity.getId())
                 .studentId(entity.getStudent().getId())
-                .status(entity.getStatus())
                 .timeTableDTO(timeTableConverter.toDto(entity.getTimeTable()))
-                .registerOfMajorId(entity.getRegisterOfMajor().getId())
+                .isExchange(entity.getIsExchange())
+                .infoRegisterOfMajor(infoRegisterOfMajor)
                 .build();
     }
 

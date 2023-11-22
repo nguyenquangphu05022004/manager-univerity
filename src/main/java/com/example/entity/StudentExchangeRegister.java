@@ -24,12 +24,6 @@ import java.util.List;
 )
 public class StudentExchangeRegister extends Base {
 
-//    @ManyToMany
-//    @JoinTable(name = "studentExchangeRegisterRegister",
-//        joinColumns = @JoinColumn(name = "studentExchangeSubjectId"),
-//            inverseJoinColumns = @JoinColumn(name = "registerId")
-//    )
-//    private List<Register> registers = new ArrayList<>();
     @ManyToOne
     @JoinColumn(name = "register_iD")
     private  Register register;

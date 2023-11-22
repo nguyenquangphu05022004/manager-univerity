@@ -23,37 +23,35 @@ public class RegisterService implements GenericService<RegisterDTO> {
     private RegisterConverter registerConverter;
 
     public RegisterDTO register(Long timeTableId,
-                                Long registerOfMajorId) {
+            Long registerOfMajorId) {
         Person person = searchBy
                 .findPersonByUsername(
                         SecurityContextHolder
                                 .getContext()
                                 .getAuthentication()
-                                .getName()
-                );
+                                .getName());
         TimeTable timeTable = searchBy.findTimeTableById(timeTableId);
         RegisterOfMajor registerOfMajor = searchBy.findRegisterOfMajorById(registerOfMajorId);
         Register register = Register
                 .builder()
                 .timeTable(timeTable)
                 .student(person.getStudent())
-                .status(true)
                 .registerOfMajor(registerOfMajor)
+                .isExchange(false)
                 .build();
         return registerConverter.toDto(registerRepository.save(register));
     }
 
-    public List<RegisterDTO> getAllRecordOfStudent() {
+    public List<RegisterDTO> getAllRecordOfStudent(Long registerOfMajorId) {
         Person person = searchBy.findPersonByUsername(
                 SecurityContextHolder
                         .getContext()
                         .getAuthentication()
-                        .getName()
-        );
-        List<Register> registers = registerRepository.findAllByStudentId(person.getStudent().getId());
+                        .getName());
+        List<Register> registers = registerRepository
+                .findAllByStudentIdAndRegisterOfMajorId(person.getStudent().getId(), registerOfMajorId);
         return registerConverter.dtoList(registers);
     }
-
 
     @Override
     public RegisterDTO save(RegisterDTO object) {
@@ -74,5 +72,4 @@ public class RegisterService implements GenericService<RegisterDTO> {
         return null;
     }
 
-    
 }

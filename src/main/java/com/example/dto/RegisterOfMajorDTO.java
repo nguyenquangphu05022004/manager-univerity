@@ -15,5 +15,6 @@ public class RegisterOfMajorDTO extends GenericDTO{
     private SchoolYearDTO schoolYearDTO;
     private List<SubjectDTO> subjects = new ArrayList<>();
     private SemesterDTO semesterDTO;
+    private TuitionDTO tuitionDTO;
 
 }

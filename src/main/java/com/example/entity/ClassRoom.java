@@ -1,13 +1,10 @@
 package com.example.entity;
 
-
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotNull;
-import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,8 +21,13 @@ public class ClassRoom extends Base {
     private String house;
     @Column(name = "studentquantity")
     private Integer studentQuantity;
-    @Column(name = "studentquantitycurrent")
+
+    @Column(name = "studentQuantityCurrent")
     private Integer studentQuantityCurrent;
+    @ManyToMany
+    @JoinTable(name = "room_student", joinColumns = @JoinColumn(name = "classRoomId"),
+             inverseJoinColumns  = @JoinColumn(name = "studentId"))
+    private List<Student> students;
 
     @OneToMany(mappedBy = "classRoom")
     private List<TimeTable> timeTables = new ArrayList<>();
